@@ -5,13 +5,28 @@ Continue as **LEGAL-01 — Business Formation / Legal-Research Agent** for the *
 ## Authoritative repository
 - Repository: `efong505/ekewaka-publishing`
 - Branch: `main`
-- Verify current `main` and record the exact starting baseline before substantive work.
+- Required Phase 0 governance baseline: `54218594f2f63c7e4e7a9c6b136e9f1c1c6c5bd1`
+- LEGAL-01 agent definition: `01_agents/legal-01-business-formation-legal-research-agent.md`
+
+Before substantive work, independently verify repository identity, branch, the required Phase 0 baseline is in current `main` ancestry, current `main`, and the governing artifacts listed below. Record the exact starting HEAD used for the research package.
 
 ## Governing source
 Master project prompt:
 https://docs.google.com/document/d/1qQscXQmwES3k6qJ9u9Al_EYGZD3bbJBf72kiVuTLMpM/edit?usp=drivesdk
 
 Read the entire master prompt and the current Phase 0 governance artifacts before substantive action.
+
+At minimum verify and follow:
+- `README.md`
+- `00_governance/project-charter.md`
+- `00_governance/authoritative-source-policy.md`
+- `00_governance/master-roadmap.md`
+- `00_governance/decision-register.md`
+- `00_governance/risk-register.md`
+- `00_governance/human-owner-gates.md`
+- `00_governance/work-package-register.md`
+- `01_agents/agent-architecture.md`
+- `01_agents/legal-01-business-formation-legal-research-agent.md`
 
 ## Assignment
 **FR-WP-01 — Legal, Entity, Name & Brand Clearance Foundations**
