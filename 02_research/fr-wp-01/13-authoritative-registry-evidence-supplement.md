@@ -4,7 +4,7 @@
 **Assignment:** FR-WP-01 — Authoritative Registry Evidence Supplement for CR-01 and CR-02  
 **Repository / branch:** `efong505/ekewaka-publishing` / `main`  
 **Exact starting HEAD:** `9d8b197daa41554b568669e9a15b010da0888d68`  
-**Evidence-capture date:** 2026-09-07  
+**Evidence-capture dates:** 2026-09-07 through 2026-09-08  
 **Local retrieval context:** America/Denver (MDT)  
 
 ## 1. Scope and governance boundary
@@ -29,61 +29,62 @@ Before substantive evidence capture, EVID-01 independently confirmed:
 - LEGAL-01 Bounded Correction Cycle 1 baseline `86f513b255602bf8f7a4b8967de9339b819f7e4e` is in ancestry;
 - PM EVID-01 routing baseline `9d8b197daa41554b568669e9a15b010da0888d68` is the exact starting HEAD.
 
-EVID-01 also read the permanent EVID-01 role definition, the complete EVID-01 launcher, the VER-01 independent-verification report, the bounded-correction-cycle record, and the governing Google Drive master project prompt before substantive action.
+EVID-01 also read the permanent EVID-01 role definition, the complete EVID-01 launcher, the VER-01 independent-verification report, the bounded-correction-cycle record, and the governing master project prompt before substantive action.
 
 ## 3. CR-01 — New Mexico SOS Enterprise
 
-### 3.1 Authoritative systems attempted
+### 3.1 Authoritative systems
 
 - Business search: `https://enterprise.sos.nm.gov/search/business`
 - Trademark search: `https://enterprise.sos.nm.gov/search/trademark`
 
-### 3.2 Direct retrieval state
+### 3.2 Direct-interface limitation and Human Owner-assisted capture
 
-On 2026-09-07, both authoritative routes were directly reached through the available research interface. The pages resolved as New Mexico Secretary of State Enterprise routes, but the interface exposed no capturable searchable/result text and did not permit EVID-01 to submit a query and preserve a reproducible result state.
+On 2026-09-07, both authoritative routes were directly reached through the available research interface, but EVID-01 could not submit and preserve reproducible query-result states through that interface.
 
-Accordingly, **no authoritative business, fictitious/assumed-name, or New Mexico state trademark result count is claimed in this supplement at this stage**. No favorable inference is made from the inability to submit the searches.
+Under the launcher-authorized manual-capture protocol, the Human Owner then used the live New Mexico SOS Enterprise interface and supplied dated screenshots showing the exact query text, selected category, authoritative result state, and the `enterprise.sos.nm.gov` page identity. EVID-01 reviewed the screenshots directly and did not ask the Human Owner to interpret their legal significance.
 
-### 3.3 Required CR-01 query set
+### 3.3 Business / name search evidence supplied by the Human Owner
 
-The Human Owner-assisted capture must preserve the following business/name searches across registered businesses and any fictitious/assumed-name records surfaced by Enterprise:
+The Business search was used with the result set left unrestricted rather than narrowed to a selected entity/status subtype. The following exact search-result states were displayed by the authoritative Enterprise interface:
 
-1. `Ekewaka Publishing`
-2. `Ekewaka Publishing LLC`
-3. `Ekewaka Press`
-4. `Ekewaka`
-5. `Ekewaka Publishing, LLC`
-6. `Ekewaka-Publishing`
-7. `Eke Waka`
-8. `Eke Waka Publishing`
-9. `Eke-Waka`
-10. any materially similar `Ekewaka` result surfaced by the broader `Ekewaka` / `Eke Waka` searches.
+| Query | Category | Retrieval date | Authoritative displayed result state | Material identifiers/hits |
+|---|---|---|---|---|
+| `Ekewaka Publishing` | Business | 2026-09-08 | `No results were found for Ekewaka Publishing` | None displayed |
+| `Ekewaka Publishing LLC` | Business | 2026-09-08 | `No results were found for Ekewaka Publishing LLC` | None displayed |
+| `Ekewaka Press` | Business | 2026-09-08 | `No results were found for Ekewaka Press` | None displayed |
+| `Ekewaka` | Business | 2026-09-08 | `No results were found for Ekewaka` | None displayed |
+| `Ekewaka Publishing, LLC` | Business | 2026-09-08 | `No results were found for Ekewaka Publishing, LLC` | None displayed |
+| `Ekewaka-Publishing` | Business | 2026-09-08 | `No results were found for Ekewaka-Publishing` | None displayed |
+| `Eke Waka` | Business | 2026-09-08 | `No results were found for Eke Waka` | None displayed |
+| `Eke Waka Publishing` | Business | 2026-09-08 | `No results were found for Eke Waka Publishing` | None displayed |
+| `Eke-Waka` | Business | 2026-09-08 | `No results were found for Eke-Waka` | None displayed |
 
-For the state trademark/service-mark search, preserve at minimum:
+The screenshots showed the `Business` category active and no material result rows, entity identifiers, or business identifiers for these queries.
 
-1. `Ekewaka`
-2. `Ekewaka Publishing`
-3. `Ekewaka Press`
-4. `Eke Waka`
-5. materially similar spacing/punctuation variants surfaced by those searches.
+These result states are preserved only as direct registry evidence. They are not a declaration of legal name availability or clearance.
 
-### 3.4 Required manual evidence for each CR-01 query
+### 3.4 New Mexico trademark / service-mark evidence supplied by the Human Owner
 
-For every query, preserve a screenshot showing, in the same capture where practicable:
+The authoritative Trademark Search page displayed the statement that, as of 2026-09-08, the office had processed all trademarks received through 2026-09-07.
 
-- the authoritative `enterprise.sos.nm.gov` page identity/address bar;
-- exact search term entered;
-- selected search category/filter;
-- displayed result count or displayed no-result state;
-- complete visible result names;
-- entity/business/trademark identifier for any material hit;
-- entity/type/status when displayed.
+The following exact result states were supplied and reviewed:
 
-For every material hit, open the official Enterprise record and provide an additional screenshot showing the record name, identifier, type/status, and any filing/registration details visible in the authoritative record.
+| Query | Category | Retrieval date | Authoritative displayed result state | Material identifiers/hits |
+|---|---|---|---|---|
+| `Ekewaka` | Trademark | 2026-09-08 | `No results were found for Ekewaka` | None displayed |
+| `Ekewaka Publishing` | Trademark | 2026-09-08 | `No results were found for Ekewaka Publishing` | None displayed |
+| `Ekewaka Press` | Trademark | 2026-09-08 | `No results were found for Ekewaka Press` | None displayed |
+| `Eke Waka` | Trademark | 2026-09-08 | `No results were found for Eke Waka` | None displayed |
+| `Eke-Waka` | Trademark | 2026-09-08 | `No results were found for Eke-Waka` | None displayed |
+
+No material state trademark/service-mark record, serial/registration identifier, or owner information was displayed for the captured query set.
 
 ### 3.5 CR-01 current evidence state
 
-**PARTIAL / MANUAL CAPTURE REQUIRED.** Authoritative portal identity and access attempt are preserved; authoritative query-result states are not yet captured.
+**CR-01 DIRECT AUTHORITATIVE MANUAL EVIDENCE CAPTURE COMPLETE FOR THE REQUIRED QUERY SET.**
+
+The Human Owner-supplied screenshots establish the displayed result states for the authorized Business and New Mexico Trademark Search queries. No legal-clearance conclusion is made, and LEGAL-01 remains responsible for any later legal-research analysis or recommendation.
 
 ## 4. CR-02 — USPTO Trademark Search / TSDR
 
@@ -163,17 +164,20 @@ For each potentially material hit, provide either the official TSDR link or its 
 
 ## 5. Material registry hits and identifiers
 
-None are claimed yet because no authoritative NM SOS Enterprise query-result set or USPTO Trademark Search result set has been successfully submitted and preserved through the available interface.
+### New Mexico SOS Enterprise
 
-This is an evidence-state statement only and is not a finding that no records exist.
+No material business, fictitious/assumed-name, or New Mexico trademark/service-mark hit or identifier was displayed in the manually captured required query set.
+
+### USPTO
+
+No federal material-hit conclusion is claimed yet because the direct Trademark Search result set has not yet been manually captured. TSDR review remains pending any material serial/registration identifiers surfaced by the direct search.
 
 ## 6. Remaining limitations / required next evidence
 
-1. Human Owner-assisted NM SOS Enterprise screenshots/results for the CR-01 query set across registered business/fictitious-name and state trademark/service-mark categories.
-2. Human Owner-assisted USPTO Trademark Search screenshots/results for the CR-02 query set.
-3. TSDR review by EVID-01 for every materially relevant federal hit identified from the direct Trademark Search results.
-4. LEGAL-01, not EVID-01, must analyze the completed evidence supplement and update the affected research artifacts.
-5. VER-01 must independently re-verify the supplemented FR-WP-01 package after LEGAL-01 supplementation.
+1. Human Owner-assisted USPTO Trademark Search screenshots/results for the CR-02 query set.
+2. TSDR review by EVID-01 for every materially relevant federal hit identified from the direct Trademark Search results.
+3. LEGAL-01, not EVID-01, must analyze the completed evidence supplement and update the affected FR-WP-01 artifacts.
+4. VER-01 must independently re-verify the supplemented FR-WP-01 package after LEGAL-01 supplementation.
 
 ## 7. Human Owner gates
 
