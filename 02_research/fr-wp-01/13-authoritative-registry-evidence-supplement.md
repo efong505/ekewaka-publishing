@@ -42,11 +42,11 @@ EVID-01 also read the permanent EVID-01 role definition, the complete EVID-01 la
 
 On 2026-09-07, both authoritative routes were directly reached through the available research interface, but EVID-01 could not submit and preserve reproducible query-result states through that interface.
 
-Under the launcher-authorized manual-capture protocol, the Human Owner then used the live New Mexico SOS Enterprise interface and supplied dated screenshots showing the exact query text, selected category, authoritative result state, and the `enterprise.sos.nm.gov` page identity. EVID-01 reviewed the screenshots directly and did not ask the Human Owner to interpret their legal significance.
+Under the launcher-authorized manual-capture protocol, the Human Owner then used the live New Mexico SOS Enterprise interface and supplied screenshots showing the exact query text, selected category, authoritative result state, and the `enterprise.sos.nm.gov` page identity. EVID-01 reviewed the screenshots directly and did not ask the Human Owner to interpret their legal significance.
 
 ### 3.3 Business / name search evidence supplied by the Human Owner
 
-The Business search was used with the result set left unrestricted rather than narrowed to a selected entity/status subtype. The following exact search-result states were displayed by the authoritative Enterprise interface:
+The Business search was used with the result set left unrestricted rather than narrowed to a selected entity/status subtype.
 
 | Query | Category | Retrieval date | Authoritative displayed result state | Material identifiers/hits |
 |---|---|---|---|---|
@@ -60,15 +60,11 @@ The Business search was used with the result set left unrestricted rather than n
 | `Eke Waka Publishing` | Business | 2026-09-08 | `No results were found for Eke Waka Publishing` | None displayed |
 | `Eke-Waka` | Business | 2026-09-08 | `No results were found for Eke-Waka` | None displayed |
 
-The screenshots showed the `Business` category active and no material result rows, entity identifiers, or business identifiers for these queries.
-
-These result states are preserved only as direct registry evidence. They are not a declaration of legal name availability or clearance.
+No material result rows, entity identifiers, or business identifiers were displayed for the captured query set.
 
 ### 3.4 New Mexico trademark / service-mark evidence supplied by the Human Owner
 
-The authoritative Trademark Search page displayed the statement that, as of 2026-09-08, the office had processed all trademarks received through 2026-09-07.
-
-The following exact result states were supplied and reviewed:
+The authoritative Trademark Search page displayed that, as of 2026-09-08, the office had processed all trademarks received through 2026-09-07.
 
 | Query | Category | Retrieval date | Authoritative displayed result state | Material identifiers/hits |
 |---|---|---|---|---|
@@ -80,87 +76,58 @@ The following exact result states were supplied and reviewed:
 
 No material state trademark/service-mark record, serial/registration identifier, or owner information was displayed for the captured query set.
 
-### 3.5 CR-01 current evidence state
+### 3.5 CR-01 evidence state
 
 **CR-01 DIRECT AUTHORITATIVE MANUAL EVIDENCE CAPTURE COMPLETE FOR THE REQUIRED QUERY SET.**
 
-The Human Owner-supplied screenshots establish the displayed result states for the authorized Business and New Mexico Trademark Search queries. No legal-clearance conclusion is made, and LEGAL-01 remains responsible for any later legal-research analysis or recommendation.
+These result states are preserved only as direct registry evidence. They are not a declaration of legal name availability or legal clearance.
 
 ## 4. CR-02 — USPTO Trademark Search / TSDR
 
-### 4.1 Authoritative systems attempted
+### 4.1 Authoritative systems
 
 - Trademark Search: `https://tmsearch.uspto.gov/search/`
 - TSDR: `https://tsdr.uspto.gov/`
 - USPTO federal trademark search guidance: `https://www.uspto.gov/trademarks/search/federal-trademark-searching`
 
-### 4.2 Direct retrieval state
+### 4.2 Human Owner-assisted authoritative Trademark Search capture
 
-On 2026-09-07, the official Trademark Search application was directly reached, but the available research interface exposed only the JavaScript-driven application shell and did not permit EVID-01 to submit and preserve the required wordmark result sets.
+The available research interface could reach the USPTO Trademark Search application but could not itself submit and preserve the required interactive searches. Under the manual-capture protocol, the Human Owner used the live `tmsearch.uspto.gov` interface and supplied screenshots. EVID-01 reviewed each screenshot directly.
 
-The official TSDR interface is directly readable through the available interface and exposes the fields needed for a material-hit review, including mark, serial number, registration number, status, owner, classes, goods/services, and documents. TSDR therefore becomes usable once material serial/registration numbers are identified from Trademark Search.
+The initial `EKEWAKA` Wordmark search was run with both Live and Dead statuses represented and showed `Live 0`, `Dead 0`, and `No results found`.
 
-No indexed-web result is substituted for the required direct Trademark Search evidence.
+A plain Wordmark search for `EKEWAKA PUBLISHING`, including a quoted attempt, returned approximately 4,230 broad results dominated by unrelated marks containing `PUBLISHING`. Those broad results are preserved only as an interface/search-behavior limitation and are not treated as the required exact combined-mark result set.
 
-### 4.3 Required CR-02 Trademark Search query set
+The current interface exposed `Field tag and Search builder`; combined-mark (`CM`) searches were then used to preserve exact, spacing/punctuation, and broader variant result states.
 
-Use the official Trademark Search system and preserve **all statuses** (Live and Dead) for initial evidence capture unless the interface requires separate status views.
+### 4.3 Captured USPTO result states
 
-#### Basic / Wordmark exact searches
+| Query / mode | Retrieval date | Authoritative displayed result state | Material identifiers/hits |
+|---|---|---|---|
+| Wordmark `EKEWAKA`, Live + Dead | 2026-09-08 | `Live 0`; `Dead 0`; `No results found` | None displayed |
+| `CM:"ekewaka publishing"` | 2026-09-08 | `No results found` | None displayed |
+| `CM:"ekewaka publishing llc"` | 2026-09-08 | `No results found` | None displayed |
+| `CM:"ekewaka press"` | 2026-09-08 | `No results found` | None displayed |
+| `CM:"Ekewaka"` | 2026-09-08 | `No results found` | None displayed |
+| `CM:"Ekewaka Publishing, LLC"` | 2026-09-08 | `No results found` | None displayed |
+| `CM:"Ekewaka-Publishing"` | 2026-09-08 | `No results found` | None displayed |
+| `CM:"Eke Waka"` | 2026-09-08 | `No results found` | None displayed |
+| `CM:"Eke Waka Publishing"` | 2026-09-08 | `No results found` | None displayed |
+| `CM:"Eke-Waka"` | 2026-09-08 | `No results found` | None displayed |
+| `CM:/.*ekewaka.*/` | 2026-09-08 | `No results found` | None displayed |
+| `CM:(/.*eke.*/ AND /.*waka.*/)` | 2026-09-08 | `No results found` | None displayed |
 
-1. `EKEWAKA`
-2. `EKEWAKA PUBLISHING`
-3. `EKEWAKA PUBLISHING LLC`
-4. `EKEWAKA PRESS`
-5. `EKE WAKA`
-6. `EKE-WAKA`
+No required exact, spacing/punctuation, or broader combined-mark query produced a displayed mark, serial number, registration number, owner, status record, goods/services record, or class record requiring material-hit triage.
 
-#### Expert combined-mark searches
+### 4.4 TSDR follow-up state
 
-USPTO guidance identifies `CM` as the combined-mark field tag. Preserve these queries where supported:
+TSDR was available for direct review if a potentially material serial/registration identifier was identified. No such identifier was surfaced by the captured required Trademark Search query set. Therefore, no TSDR material-hit record exists to review for this evidence-capture cycle.
 
-1. `CM:ekewaka`
-2. `CM:"ekewaka publishing"`
-3. `CM:"ekewaka publishing llc"`
-4. `CM:"ekewaka press"`
-5. `CM:"eke waka"`
-6. `CM:/.*ekewaka.*/`
-7. `CM:(/.*eke.*/ AND /.*waka.*/)`
+This is an evidence-state statement only. It is not a legal conclusion about likelihood of confusion, registrability, availability, or attorney-grade clearance.
 
-If the system surfaces additional materially similar spellings or pronunciations during those searches, preserve them as follow-on queries and identify them explicitly as system/search-derived variants.
+### 4.5 CR-02 evidence state
 
-### 4.4 Goods/services relevance for evidence triage
-
-Do not use international class alone as a legal conclusion. For evidence capture, flag results whose goods/services appear materially related to publishing/media/education/author or retail services, including records involving Classes 009, 016, 035, and 041, as well as adjacent classes where the goods/services text is materially related.
-
-### 4.5 Required manual evidence for each CR-02 query
-
-For every Trademark Search query, provide a screenshot showing:
-
-- the authoritative `tmsearch.uspto.gov` page/address;
-- exact query text;
-- search mode/filter used (Wordmark/Basic or Expert as applicable);
-- status filter state;
-- displayed result count;
-- enough of the result list to identify each potentially material hit, including mark wording and serial number.
-
-If a query returns zero displayed results, the screenshot must show the exact query and the official zero-result state.
-
-For each potentially material hit, provide either the official TSDR link or its serial number. EVID-01 will review TSDR and preserve:
-
-- mark wording;
-- serial number;
-- registration number if any;
-- owner;
-- live/dead and registration/application status;
-- filing/registration details where material;
-- goods/services;
-- relevant international class(es);
-- direct authoritative TSDR record reference.
-
-### 4.6 CR-02 current evidence state
-
-**PARTIAL / MANUAL TRADEMARK SEARCH CAPTURE REQUIRED.** Trademark Search application identity and authoritative search methodology are preserved; direct query-result sets are not yet captured. TSDR is directly reviewable after serial/registration identifiers are supplied.
+**CR-02 DIRECT AUTHORITATIVE MANUAL EVIDENCE CAPTURE COMPLETE FOR THE REQUIRED QUERY SET.**
 
 ## 5. Material registry hits and identifiers
 
@@ -168,16 +135,19 @@ For each potentially material hit, provide either the official TSDR link or its 
 
 No material business, fictitious/assumed-name, or New Mexico trademark/service-mark hit or identifier was displayed in the manually captured required query set.
 
-### USPTO
+### USPTO Trademark Search / TSDR
 
-No federal material-hit conclusion is claimed yet because the direct Trademark Search result set has not yet been manually captured. TSDR review remains pending any material serial/registration identifiers surfaced by the direct search.
+No material federal trademark hit or serial/registration identifier was displayed in the captured required exact and broader query set. Consequently, there was no identified record requiring TSDR detail preservation in this cycle.
 
-## 6. Remaining limitations / required next evidence
+No legal conclusion is drawn from these displayed search states.
 
-1. Human Owner-assisted USPTO Trademark Search screenshots/results for the CR-02 query set.
-2. TSDR review by EVID-01 for every materially relevant federal hit identified from the direct Trademark Search results.
-3. LEGAL-01, not EVID-01, must analyze the completed evidence supplement and update the affected FR-WP-01 artifacts.
+## 6. Remaining limitations and downstream work
+
+1. This supplement is preliminary evidence capture only and is not attorney-grade trademark clearance or likelihood-of-confusion analysis.
+2. LEGAL-01 must analyze this completed evidence supplement and update only the affected FR-WP-01 research artifacts within the existing bounded correction scope.
+3. Any final legal-clearance conclusion, filing strategy, or registrability assessment remains outside EVID-01 and may require qualified trademark/business counsel.
 4. VER-01 must independently re-verify the supplemented FR-WP-01 package after LEGAL-01 supplementation.
+5. PM-01 retains sequencing and acceptance authority; FR-WP-01 is not VERIFIED, PM ACCEPTED, or CLOSED by this evidence-capture completion.
 
 ## 7. Human Owner gates
 
@@ -185,4 +155,4 @@ All Human Owner gates remain intact. No filing, reservation, registration, purch
 
 ## 8. EVID-01 disposition
 
-**Evidence Capture Partially Complete — Additional Manual/Agency Evidence Required**
+**Evidence Capture Complete — Ready for LEGAL-01 Supplement**
