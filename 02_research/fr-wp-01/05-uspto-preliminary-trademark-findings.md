@@ -2,6 +2,7 @@
 
 **Original search date:** 2026-09-07  
 **Bounded-correction retrieval date:** 2026-09-07  
+**Authoritative evidence supplement date:** 2026-09-08  
 **Nature:** Preliminary internal screening only; not a legal clearance opinion.
 
 ## Search targets
@@ -10,8 +11,8 @@
 - `EKEWAKA PUBLISHING`
 - `EKEWAKA PUBLISHING LLC`
 - `EKEWAKA PRESS`
-- obvious spacing, spelling, phonetic, wording and related variants reasonably material to likelihood-of-confusion screening
-- materially relevant marks in publishing, printed publications, downloadable media, education, retail/ecommerce, author services and adjacent media/creative services
+- obvious spacing, spelling, phonetic, wording and related variants reasonably material to preliminary screening
+- materially relevant publishing/media/education/author-services contexts for later professional review
 
 ## Authoritative USPTO systems
 
@@ -23,30 +24,48 @@ USPTO's current guidance identifies Trademark Search as the federal database sea
 
 ## Bounded Correction Cycle 1 — CR-02 direct retrieval attempt
 
-The official Trademark Search application was reached on 2026-09-07. It is a JavaScript-driven interactive application. The available research interface could load the official search shell and individual serial-number result pages, but it could not submit the required wordmark searches or preserve the resulting authoritative result sets. The official search page itself requires JavaScript for the application.
+The official Trademark Search application was reached on 2026-09-07, but the available research interface could not submit and preserve the required interactive wordmark result sets. That cycle therefore correctly left CR-02 unresolved and did not claim any TSDR material-hit review.
 
-The following exact/direct searches were therefore **required but not successfully executed through the authoritative search interface** in this correction environment:
-- `EKEWAKA`
-- `EKEWAKA PUBLISHING`
-- `EKEWAKA PUBLISHING LLC`
-- `EKEWAKA PRESS`
-- `EKE WAKA`
-- reasonable wildcard/phonetic/spacing variants
-- related-goods/services screening in Classes 009, 016, 035 and 041 and adjacent relevant classes
+## Authoritative Registry Evidence Supplement — CR-02
 
-A secondary search-engine check restricted to `tmsearch.uspto.gov` produced no indexed exact-name results for the Ekewaka queries, but that is **not** treated as a direct USPTO Trademark Search result and is not relied upon as clearance evidence.
+Under the launcher-authorized Human Owner-assisted manual-capture protocol, the Human Owner used the live `tmsearch.uspto.gov` interface on 2026-09-08 and supplied screenshots. EVID-01 reviewed those screenshots directly and preserved the evidence in `13-authoritative-registry-evidence-supplement.md`.
+
+The initial Wordmark search for `EKEWAKA`, with both Live and Dead represented, displayed `Live 0`, `Dead 0`, and `No results found`.
+
+A plain Wordmark search for `EKEWAKA PUBLISHING`, including a quoted attempt, returned approximately 4,230 broad results dominated by unrelated marks containing `PUBLISHING`. Those broad results are treated only as an interface/search-behavior limitation and are not treated as the required exact combined-mark result set.
+
+The current interface exposed `Field tag and Search builder`, after which combined-mark (`CM`) searches were used to preserve exact, spacing/punctuation, and broader variant result states.
+
+### Captured USPTO result states
+
+| Query / mode | Authoritative displayed result state | Material identifiers/hits |
+|---|---|---|
+| Wordmark `EKEWAKA`, Live + Dead | `Live 0`; `Dead 0`; `No results found` | None displayed |
+| `CM:"ekewaka publishing"` | `No results found` | None displayed |
+| `CM:"ekewaka publishing llc"` | `No results found` | None displayed |
+| `CM:"ekewaka press"` | `No results found` | None displayed |
+| `CM:"Ekewaka"` | `No results found` | None displayed |
+| `CM:"Ekewaka Publishing, LLC"` | `No results found` | None displayed |
+| `CM:"Ekewaka-Publishing"` | `No results found` | None displayed |
+| `CM:"Eke Waka"` | `No results found` | None displayed |
+| `CM:"Eke Waka Publishing"` | `No results found` | None displayed |
+| `CM:"Eke-Waka"` | `No results found` | None displayed |
+| `CM:/.*ekewaka.*/` | `No results found` | None displayed |
+| `CM:(/.*eke.*/ AND /.*waka.*/)` | `No results found` | None displayed |
+
+No required exact, spacing/punctuation, or broader combined-mark query produced a displayed mark, serial number, registration number, owner, status record, goods/services record, or class record requiring material-hit triage.
 
 ## TSDR / material hits
 
-No material TSDR hit can be responsibly identified from this correction cycle because no authoritative Trademark Search result set was obtained from which to select potentially conflicting records. TSDR itself is reachable, but requires a serial/registration number for case-specific review.
+TSDR was available for direct review if a potentially material serial/registration identifier was identified. No such identifier was surfaced by the captured required Trademark Search query set. Therefore no material-hit TSDR record was triggered or created in this evidence cycle.
 
-## Formal escalation
+That is an evidence-state statement only. It is **not** a legal conclusion about likelihood of confusion, registrability, availability, or attorney-grade clearance.
 
-CR-02 remains unresolved. Before brand adoption, trademark filing, or material reliance on the mark, obtain and preserve:
-1. direct Trademark Search result evidence for all required exact and variant searches;
-2. class/goods-services refinement for publishing, printed matter, downloadable publications/media, education, retail/ecommerce and author-service uses;
-3. TSDR review for each material live/pending or otherwise relevant hit, capturing mark, serial/registration number, owner, live/dead status, goods/services, filing/registration posture and relevant dates; and
-4. qualified trademark-counsel likelihood-of-confusion analysis before any final clearance conclusion.
+## CR-02 status after supplementation
+
+**CR-02 authoritative registry evidence is complete for the required captured query set.**
+
+The absence of a displayed material mark or identifier in that captured query set does not establish legal availability or trademark clearance. A qualified trademark attorney should still perform comprehensive federal/state/common-law clearance and likelihood-of-confusion analysis before final brand adoption or filing, including appropriate related-goods/services and similarity analysis beyond the captured internal screening set.
 
 ## Likely filing classes for attorney review
 
@@ -59,6 +78,6 @@ These remain issue-spotting candidates only; final identifications must match ac
 
 ## Filing posture recommendation
 
-Do **not** file a federal or state trademark based on this package or this bounded-correction attempt. Attorney-grade federal/state/common-law clearance remains required before final adoption or filing.
+Do **not** file a federal or state trademark based on this package or the captured preliminary query set. Attorney-grade federal/state/common-law clearance remains required before final adoption or filing.
 
 No trademark application was filed.
