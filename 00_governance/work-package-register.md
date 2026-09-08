@@ -9,7 +9,7 @@ Exception states: `BLOCKED`, `CORRECTION REQUIRED`, `SUPERSEDED`, `CANCELLED`.
 
 | ID | Work package | Owner | Status | Key dependencies |
 |---|---|---|---|---|
-| FR-WP-01 | Legal, Entity, Name & Brand Clearance Foundations | LEGAL-01 / VER-01 | CORRECTION REQUIRED | LEGAL-01 package completed at `88852218e57848e97891029e72052c9d224a9356`; VER-01 found required authoritative NM SOS/USPTO search-evidence gaps and an unresolved NM LLC maintenance/reporting evidence item; PM acceptance remains blocked pending bounded correction and re-verification |
+| FR-WP-01 | Legal, Entity, Name & Brand Clearance Foundations | LEGAL-01 / VER-01 | BLOCKED | Bounded Correction Cycle 1 resolved CR-03 but direct authoritative NM SOS Enterprise and USPTO Trademark Search/TSDR result capture for CR-01/CR-02 remains unavailable in the current research interface; agency/manual/counsel resolution is required before VER-01 re-verification can reasonably produce a passing disposition |
 | FR-WP-02 | Publishing Business Model & Industry Benchmark | FIN-01 | PLANNED | Phase 0 complete |
 | FR-WP-03 | Printing, Distribution & Fulfillment Baseline | DIST-01 | PLANNED | Phase 0 complete |
 | FR-WP-04 | Author Services Competitive Benchmark | SERV-01 | PLANNED | Phase 0 complete |
@@ -19,11 +19,15 @@ Exception states: `BLOCKED`, `CORRECTION REQUIRED`, `SUPERSEDED`, `CANCELLED`.
 ## Immediate sequencing
 1. FR-WP-01 LEGAL-01 research package completed from starting HEAD `2d7a0cf593fc18b8d0e65a584621de5636e801c5`.
 2. PM lineage check confirmed completion baseline `88852218e57848e97891029e72052c9d224a9356` is exactly one commit ahead of the LEGAL-01 starting baseline.
-3. VER-01 independently reviewed the complete FR-WP-01 package and current authoritative evidence from verification starting baseline `15ddb9696df8bb0a157f8e6eef9461c83e60152f`.
-4. VER-01 disposition: **Correction Required**.
-5. PM acceptance remains blocked until LEGAL-01 completes a bounded correction covering direct NM SOS Enterprise name/fictitious-name/state-trademark evidence, direct USPTO Trademark Search/TSDR evidence, and the NM domestic LLC recurring maintenance/reporting evidence question, followed by VER-01 re-verification.
-6. FR-WP-02 through FR-WP-05 may later run in controlled parallel when PM authorizes them.
-7. FR-WP-06 must not finalize until its source economics and channel assumptions are current and cited.
+3. VER-01 independently reviewed the complete FR-WP-01 package and issued **Correction Required** at `f0a94f0beb2d2f44fc1f1b083609284aa1d8d802`.
+4. PM launched Bounded Correction Cycle 1 from `9ac57294a76ad3fb42f3baa0c971115f496382f7`.
+5. LEGAL-01 resolved CR-03: current primary authority reviewed does not impose a recurring annual/biennial/triennial/periodic Secretary-of-State report on a domestic New Mexico LLC under the current LLC Act.
+6. CR-01 remains blocked: direct NM SOS Enterprise candidate-name/fictitious-name/state-trademark result capture was not obtainable through the available research interface; no clean result is inferred.
+7. CR-02 remains blocked: direct USPTO Trademark Search wordmark/result capture was not obtainable through the available research interface; no direct federal clearance result or TSDR material-hit review is inferred.
+8. PM must obtain or route for manual/direct agency or qualified-counsel authoritative search evidence for CR-01 and CR-02, then return the supplemented bounded correction to VER-01 for re-verification.
+9. PM acceptance remains blocked. FR-WP-01 must not be marked VERIFIED, PM ACCEPTED or CLOSED.
+10. FR-WP-02 through FR-WP-05 may later run in controlled parallel when PM authorizes them.
+11. FR-WP-06 must not finalize until its source economics and channel assumptions are current and cited.
 
 ## FR-WP-01 authoring disposition
 
@@ -33,6 +37,8 @@ Exception states: `BLOCKED`, `CORRECTION REQUIRED`, `SUPERSEDED`, `CANCELLED`.
 
 **Correction Required**
 
-The foundational legal/tax/local/publishing-risk research is substantially useful, but the governing LEGAL-01 scope required documented preliminary name/trademark research against New Mexico and USPTO records. The completed package explicitly lacks direct NM SOS Enterprise and live USPTO result evidence. A bounded correction and subsequent VER-01 re-verification are required before PM acceptance.
+## FR-WP-01 bounded-correction cycle 1 disposition
 
-No Human Owner approval gate is advanced by this disposition.
+**FR-WP-01 Bounded Correction Blocked — Professional/Agency Resolution Required**
+
+CR-03 is resolved at the foundational level. CR-01 and CR-02 remain unresolved because the authoritative interactive registry result sets could not be directly captured through the available research interface. No Human Owner approval gate is advanced by this status.

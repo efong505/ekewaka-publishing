@@ -1,10 +1,11 @@
 # FR-WP-01 — Unresolved Questions / Gaps
 
-**Research date:** 2026-09-07
+**Original research date:** 2026-09-07  
+**Bounded-correction update:** 2026-09-07
 
-1. **Direct NM SOS live-search capture:** This research did not obtain a machine-readable direct Enterprise search-result record for the three candidate names. Same-day direct portal search remains required before any filing.
-2. **Federal trademark live-search capture:** No authoritative USPTO search-result export was captured in this pass. Attorney-grade live USPTO/TSDR clearance remains open.
-3. **NM LLC recurring report obligation:** Reviewed sources did not establish a recurring annual/biennial report obligation for domestic LLCs. Confirm directly with SOS/counsel before formation rather than inferring from corporation forms.
+1. **Direct NM SOS Enterprise search evidence — BLOCKED / unresolved:** Bounded Correction Cycle 1 attempted direct authoritative retrieval from `https://enterprise.sos.nm.gov/search/business`; the route returned HTTP 403 to the available research interface. The trademark/search shell did not expose a reliably capturable query/result set. No authoritative result is claimed. Direct manual Enterprise evidence, SOS confirmation, or qualified counsel search remains required for `Ekewaka Publishing`, `Ekewaka Publishing LLC`, `Ekewaka Press`, `Ekewaka`, material variants, fictitious names and state trademark/service-mark records.
+2. **Federal Trademark Search/TSDR evidence — BLOCKED / unresolved:** The current USPTO Trademark Search application was reachable but requires interactive JavaScript submission that the available research interface could not perform. No authoritative wordmark result set was captured for `EKEWAKA`, `EKEWAKA PUBLISHING`, `EKEWAKA PUBLISHING LLC`, `EKEWAKA PRESS` or variants, so no TSDR material-hit review could be completed. Direct manual Trademark Search/TSDR evidence and trademark-counsel clearance remain required.
+3. **NM LLC recurring SOS report obligation — RESOLVED for foundational scope:** Current primary authority identifies the New Mexico Limited Liability Company Act as NMSA 1978 §§53-19-1 through 53-19-74. The current Act reviewed contains no annual, biennial, triennial or other recurring Secretary-of-State report requirement for a domestic LLC. Corporate Reports are governed separately under Chapter 53, Article 5. This conclusion is limited to recurring SOS reports; registered-agent/office duties and event-driven filings remain applicable, and current law should be rechecked immediately before formation.
 4. **Final ownership structure:** Single-member versus multi-member and manager-managed versus member-managed structure is not finally decided.
 5. **Operating address:** Exact address, zoning district, home-occupation intensity, storage, visitors, signage and event activity are not fixed.
 6. **Tax classification:** Default disregarded treatment versus S-corp election requires expected-profit/payroll modeling and CPA advice.
@@ -17,4 +18,4 @@
 13. **Cultural/brand review:** Because Ekewaka is a Hawaiian form/name associated with Edward, consider whether a cultural/linguistic review would strengthen brand stewardship even if not legally required.
 14. **Existing Edward Fong title migration:** Rights/ISBN/publisher-of-record consequences for existing editions are reserved for later catalog/rights work and are not answered here.
 
-These gaps do not prevent independent verification of the foundational package, but several prevent final legal/brand/tax implementation.
+The unresolved direct NM SOS and USPTO authoritative-search items prevent completion of the name/trademark correction and therefore prevent VER-01 re-verification from reasonably producing a passing disposition until authoritative result evidence is added.
