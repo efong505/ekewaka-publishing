@@ -9,7 +9,7 @@ Exception states: `BLOCKED`, `CORRECTION REQUIRED`, `SUPERSEDED`, `CANCELLED`.
 
 | ID | Work package | Owner | Status | Key dependencies |
 |---|---|---|---|---|
-| FR-WP-01 | Legal, Entity, Name & Brand Clearance Foundations | LEGAL-01 / EVID-01 / VER-01 | BLOCKED — EVID-01 PARTIAL / HUMAN OWNER MANUAL CAPTURE REQUIRED | Bounded Correction Cycle 1 resolved CR-03. EVID-01 directly reached the authoritative NM SOS Enterprise and USPTO systems but could not submit/preserve the required interactive query-result sets through the available interface. `02_research/fr-wp-01/13-authoritative-registry-evidence-supplement.md` records the exact remaining CR-01/CR-02 manual-capture requirements. After manual evidence is supplied, EVID-01 must review/preserve it and complete TSDR review for material federal hits before LEGAL-01 supplementation and VER-01 re-verification. |
+| FR-WP-01 | Legal, Entity, Name & Brand Clearance Foundations | LEGAL-01 / EVID-01 / VER-01 | CORRECTION REQUIRED — EVID-01 COMPLETE / LEGAL-01 SUPPLEMENT REQUIRED | Bounded Correction Cycle 1 resolved CR-03. EVID-01 has completed the direct authoritative NM SOS Enterprise and USPTO Trademark Search evidence supplement for CR-01/CR-02 using Human Owner-assisted manual capture. No material registry identifier was surfaced by the required query set, so no TSDR material-hit record was triggered. LEGAL-01 must now incorporate the evidence into the affected FR-WP-01 artifacts before VER-01 re-verification. |
 | FR-WP-02 | Publishing Business Model & Industry Benchmark | FIN-01 | PLANNED | Phase 0 complete |
 | FR-WP-03 | Printing, Distribution & Fulfillment Baseline | DIST-01 | PLANNED | Phase 0 complete |
 | FR-WP-04 | Author Services Competitive Benchmark | SERV-01 | PLANNED | Phase 0 complete |
@@ -23,12 +23,12 @@ Exception states: `BLOCKED`, `CORRECTION REQUIRED`, `SUPERSEDED`, `CANCELLED`.
 4. PM launched Bounded Correction Cycle 1 from `9ac57294a76ad3fb42f3baa0c971115f496382f7`.
 5. LEGAL-01 completed Bounded Correction Cycle 1 at `86f513b255602bf8f7a4b8967de9339b819f7e4e` and resolved CR-03 at the foundational level.
 6. PM established `EVID-01 — Authoritative Registry Evidence Capture Agent` and authorized a bounded evidence-capture supplement for CR-01/CR-02 from routing baseline `9d8b197daa41554b568669e9a15b010da0888d68`.
-7. EVID-01 directly reached the authoritative NM SOS Enterprise business/trademark routes and USPTO Trademark Search/TSDR on 2026-09-07. The interactive NM SOS and Trademark Search applications did not expose submit-and-preserve query-result capability through the available interface; no favorable result was inferred.
-8. EVID-01 created `02_research/fr-wp-01/13-authoritative-registry-evidence-supplement.md` recording exact manual-capture queries, filters/modes, required screenshots/result fields, and the TSDR follow-up requirements.
-9. CR-01 remains unresolved pending Human Owner-assisted direct NM SOS Enterprise result evidence for registered businesses/fictitious names and state trademark/service-mark records.
-10. CR-02 remains unresolved pending Human Owner-assisted direct USPTO Trademark Search result evidence; EVID-01 can then perform direct TSDR review for material serial/registration identifiers.
-11. After EVID-01 completes the evidence supplement, LEGAL-01 must incorporate the direct evidence into the affected FR-WP-01 artifacts without broadening scope.
-12. The supplemented package then returns to VER-01 for independent re-verification.
+7. EVID-01 initially documented the direct-interface limitation and manual-capture requirements, then used the launcher-authorized Human Owner-assisted process to review direct authoritative screenshots from NM SOS Enterprise and USPTO Trademark Search.
+8. CR-01 authoritative manual capture completed for the required Business/name and New Mexico trademark/service-mark query set. The captured query set displayed no material record or identifier.
+9. CR-02 authoritative manual capture completed for the required exact, spacing/punctuation, and broader USPTO combined-mark query set. The captured query set displayed no material mark, serial number, or registration identifier; no TSDR material-hit review was triggered.
+10. `02_research/fr-wp-01/13-authoritative-registry-evidence-supplement.md` now records the completed evidence set and disposition **Evidence Capture Complete — Ready for LEGAL-01 Supplement**.
+11. LEGAL-01 must now incorporate the completed direct evidence into the affected FR-WP-01 artifacts without broadening scope or rewriting VER-01's report.
+12. The supplemented LEGAL-01 package must then return to VER-01 for independent re-verification.
 13. PM acceptance remains blocked. FR-WP-01 must not be marked VERIFIED, PM ACCEPTED, or CLOSED before re-verification.
 14. FR-WP-02 through FR-WP-05 may later run in controlled parallel when PM authorizes them.
 15. FR-WP-06 must not finalize until its source economics and channel assumptions are current and cited.
@@ -45,8 +45,8 @@ Exception states: `BLOCKED`, `CORRECTION REQUIRED`, `SUPERSEDED`, `CANCELLED`.
 
 **FR-WP-01 Bounded Correction Blocked — Professional/Agency Resolution Required**
 
-## FR-WP-01 EVID-01 current disposition
+## FR-WP-01 EVID-01 disposition
 
-**Evidence Capture Partially Complete — Additional Manual/Agency Evidence Required**
+**Evidence Capture Complete — Ready for LEGAL-01 Supplement**
 
-CR-03 is resolved at the foundational level. CR-01 and CR-02 remain unresolved until direct authoritative registry result evidence is preserved. No Human Owner approval or execution gate is advanced by this evidence-capture state.
+CR-01 and CR-02 direct authoritative evidence capture is complete for the required query set. This does not constitute legal clearance. LEGAL-01 supplementation and subsequent independent VER-01 re-verification remain required. No Human Owner approval or execution gate is advanced by this evidence-capture completion.
