@@ -2,6 +2,7 @@
 
 **Original retrieval date:** 2026-09-07  
 **Bounded-correction retrieval date:** 2026-09-07  
+**Authoritative evidence supplement date:** 2026-09-08  
 **Standard:** Primary government/regulator sources preferred. Secondary/common-law sources are explicitly labeled.
 
 | ID | Authority | Source | Type | Use |
@@ -13,8 +14,8 @@
 | SRC-005 | New Mexico Secretary of State | https://www.sos.nm.gov/business-services/resources/ | Primary government | Fictitious-name form/resource and agent-acceptance resources. |
 | SRC-006 | New Mexico Secretary of State | https://www.sos.nm.gov/commercial-services/trademarks/ | Primary government | State trademark/service-mark process and current fee statement. |
 | SRC-007 | New Mexico Secretary of State | https://enterprise.sos.nm.gov/ | Primary government portal | Business/fictitious-name/trademark search portal. No filing/reservation made. |
-| SRC-007A | New Mexico Secretary of State | https://enterprise.sos.nm.gov/search/business | Primary government search route | CR-01 authoritative business-search route. Direct retrieval attempt on 2026-09-07 returned HTTP 403 to the available research interface; no result set captured. |
-| SRC-007B | New Mexico Secretary of State | https://enterprise.sos.nm.gov/search/trademark | Primary government search route | CR-01 authoritative trademark-search route. Application shell reachable but no reliably capturable query/result state through the available interface. |
+| SRC-007A | New Mexico Secretary of State | https://enterprise.sos.nm.gov/search/business | Primary government search route + Human Owner-assisted direct result capture | CR-01 authoritative business-search route. Direct screenshots reviewed by EVID-01 on 2026-09-08 for the required query set; no material business record or identifier was displayed. See `13-authoritative-registry-evidence-supplement.md`. |
+| SRC-007B | New Mexico Secretary of State | https://enterprise.sos.nm.gov/search/trademark | Primary government search route + Human Owner-assisted direct result capture | CR-01 authoritative state trademark/service-mark route. Direct screenshots reviewed by EVID-01 on 2026-09-08; no material state trademark/service-mark record or identifier was displayed for the required query set. |
 | SRC-008 | City of Albuquerque | https://www.cabq.gov/planning/planning-faqs/business-registration-faqs | Primary local government | Business License, zoning, home-based business, current $36.75 fee. |
 | SRC-009 | City of Albuquerque | https://www.cabq.gov/planning/business-registration-information/upcoming-business-license-ordinance | Primary local government | License ordinance; place-of-business and application requirements. |
 | SRC-010 | City of Albuquerque | https://www.cabq.gov/planning/business-registration-information | Primary local government | Requires current dated NM TRD registration certificate for City license. |
@@ -34,8 +35,8 @@
 | SRC-024 | FinCEN | https://www.fincen.gov/news/news-releases/fincen-permanently-ends-beneficial-ownership-reporting-requirements-millions | Primary federal regulator | 2026 final-rule announcement. |
 | SRC-025 | NM SOS | https://www.sos.nm.gov/business-services/corporate-transparency-act-information/ | Primary state government but stale | Contains older BOI guidance superseded by current FinCEN rule; retained as stale-source example. |
 | SRC-026 | USPTO | https://www.uspto.gov/trademarks/search | Primary federal trademark | Identifies current Trademark Search system and TSDR workflow. |
-| SRC-026A | USPTO | https://tmsearch.uspto.gov/search/ | Primary federal trademark search system | CR-02 authoritative Trademark Search application. Reached on 2026-09-07; JavaScript-driven interactive submission prevented capture of required wordmark result sets through the available research interface. |
-| SRC-026B | USPTO | https://tsdr.uspto.gov/ | Primary federal trademark status/document system | TSDR reachable; case-specific review requires material serial/registration numbers from a successful Trademark Search result set. |
+| SRC-026A | USPTO | https://tmsearch.uspto.gov/search/ | Primary federal trademark search system + Human Owner-assisted direct result capture | CR-02 authoritative Trademark Search. EVID-01 reviewed direct screenshots on 2026-09-08 for the required exact, spacing/punctuation, and broader combined-mark query set; no material mark, serial number, or registration identifier was displayed. |
+| SRC-026B | USPTO | https://tsdr.uspto.gov/ | Primary federal trademark status/document system | Available for case-specific review. No material serial/registration identifier surfaced in the captured required Trademark Search query set, so no material-hit TSDR record was triggered. |
 | SRC-027 | U.S. Copyright Office | https://www.copyright.gov/title17/92chap2.html | Primary federal copyright | 17 U.S.C. §§201-205 rights transfers/writing/recordation. |
 | SRC-028 | U.S. Copyright Office | https://www.copyright.gov/recordation/ | Primary federal copyright | Recordation framework. |
 | SRC-029 | FTC | https://www.ftc.gov/business-guidance/advertising-marketing | Primary federal regulator | Truthful/non-deceptive/evidence-based advertising baseline. |
@@ -45,28 +46,54 @@
 | SRC-033 | Thomas Deir Studios | https://www.thomasdeirstudios.com/products/ekewaka-24x30-painting | Secondary commercial web | Adjacent product/title use of Ekewaka. |
 | SRC-034 | New Mexico Legislature | https://www.nmlegis.gov/Sessions/07%20Regular/bills/senate/SB0402.pdf | Primary legislative, historical proposed bill | Historical proposal to add §53-19-75 biennial LLC reporting; retained only as evidence that recurring LLC reporting was proposed, not as current law. Current SOS statute index still ends the LLC Act at §53-19-74. |
 | SRC-035 | New Mexico Legislature | https://www.nmlegis.gov/Sessions/23%20Regular/bills/house/HB0281.HTML | Primary legislative, historical proposed bill | Historical proposal for triennial LLC reports under a revised LLC act; not treated as current law. |
+| SRC-036 | EVID-01 | `02_research/fr-wp-01/13-authoritative-registry-evidence-supplement.md` | Internal provenance record of direct authoritative evidence capture | Preserves exact CR-01/CR-02 query sets, retrieval dates, displayed result states, interface limitations, and the no-clearance boundary. |
+| SRC-037 | LEGAL-01 | `02_research/fr-wp-01/14-legal-01-authoritative-evidence-supplement.md` | Internal bounded supplementation provenance record | Records how LEGAL-01 incorporated EVID-01 evidence without performing independent verification or changing Human Owner gates. |
 
-## Bounded Correction Cycle 1 search/retrieval log
+## Authoritative Registry Evidence Supplement log
 
 ### CR-01 — NM SOS Enterprise
-Required query strings: `Ekewaka Publishing`, `Ekewaka Publishing LLC`, `Ekewaka Press`, `Ekewaka`, `Ekewaka Publish*`, and suffix/punctuation-insensitive materially similar variants. Required categories: registered business entities, fictitious names, and state trademark/service-mark records.
 
-Direct business-search route retrieval returned HTTP 403 to the available research interface. The trademark/search shell did not provide a reliably capturable query/result set. Therefore **no authoritative result status or material hits are recorded**. Indexed-web searches remain secondary and are not substituted for the missing direct search.
+Business/name queries captured on 2026-09-08:
+- `Ekewaka Publishing`
+- `Ekewaka Publishing LLC`
+- `Ekewaka Press`
+- `Ekewaka`
+- `Ekewaka Publishing, LLC`
+- `Ekewaka-Publishing`
+- `Eke Waka`
+- `Eke Waka Publishing`
+- `Eke-Waka`
 
-### CR-02 — USPTO Trademark Search/TSDR
-Required query strings: `EKEWAKA`, `EKEWAKA PUBLISHING`, `EKEWAKA PUBLISHING LLC`, `EKEWAKA PRESS`, `EKE WAKA`, and reasonable phonetic/spacing/related variants, with related goods/services screening.
+State trademark/service-mark queries captured on 2026-09-08:
+- `Ekewaka`
+- `Ekewaka Publishing`
+- `Ekewaka Press`
+- `Eke Waka`
+- `Eke-Waka`
 
-The official Trademark Search application was reached but direct wordmark submission/result capture was unavailable through the research interface because the application is interactive/JavaScript-driven. A secondary search-engine check restricted to the official TM Search domain returned no indexed exact-name result, but this is not direct USPTO evidence and is not relied upon. No TSDR material-hit review is claimed.
+For the captured required query set, no material business record, state trademark/service-mark record, or material registry identifier was displayed. This is a direct registry evidence statement only and not legal availability or clearance.
+
+### CR-02 — USPTO Trademark Search / TSDR
+
+Captured direct Trademark Search result states included:
+- Wordmark `EKEWAKA`, Live + Dead: `Live 0`, `Dead 0`, `No results found`;
+- exact combined-mark queries for the principal Ekewaka publishing variants;
+- spacing/punctuation variants;
+- `CM:/.*ekewaka.*/`;
+- `CM:(/.*eke.*/ AND /.*waka.*/)`.
+
+No material mark, serial number, registration number, owner, status, goods/services, or class record was displayed in the captured required query set. No material identifier was surfaced, so no TSDR material-hit review was triggered. This does not establish trademark clearance or likelihood-of-confusion safety.
 
 ### CR-03 — NM domestic LLC recurring report
 Current SOS authority identifies the LLC Act as §§53-19-1 through 53-19-74 and separately identifies Corporate Reports under Chapter 53, Article 5. Review of the current LLC Act text located no annual/biennial/triennial/periodic Secretary-of-State report requirement for domestic LLCs. Historical bills proposing such requirements are not current law. Foundational conclusion: no recurring SOS report is imposed on a domestic NM LLC under the current Act, subject to same-day/current-law recheck before formation and without affecting registered-agent/office or event-driven filing duties.
 
-## Limitations
+## Remaining limitations
 
-- CR-01 authoritative NM Enterprise candidate searches remain unresolved because direct result retrieval was blocked.
-- CR-02 authoritative USPTO wordmark/result searches remain unresolved because direct interactive query execution/result capture was unavailable.
+- The captured CR-01/CR-02 query sets are preliminary registry evidence, not attorney-grade trademark/name clearance.
+- Comprehensive federal/state/common-law similarity and likelihood-of-confusion analysis remains open for qualified trademark counsel.
 - Domain/social availability was not established and no account/domain was created or purchased.
 - Tax guidance changes frequently; transaction-specific treatment requires current contracts, sourcing facts and CPA review.
+- Current authoritative registry and legal/tax authority should be rechecked immediately before any Human Owner-authorized formation, filing, adoption, or purchase.
 
 ## Provenance note
 
