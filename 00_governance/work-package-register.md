@@ -9,7 +9,7 @@ Exception states: `BLOCKED`, `CORRECTION REQUIRED`, `SUPERSEDED`, `CANCELLED`.
 
 | ID | Work package | Owner | Status | Key dependencies |
 |---|---|---|---|---|
-| FR-WP-01 | Legal, Entity, Name & Brand Clearance Foundations | LEGAL-01 / EVID-01 / VER-01 | CORRECTION REQUIRED — LEGAL-01 SUPPLEMENT COMPLETE / VER-01 RE-VERIFICATION REQUIRED | Bounded Correction Cycle 1 resolved CR-03. EVID-01 completed direct authoritative NM SOS Enterprise and USPTO Trademark Search evidence capture for CR-01/CR-02 using Human Owner-assisted manual capture. LEGAL-01 has now incorporated that evidence into the affected FR-WP-01 research artifacts. The captured required query sets displayed no material registry result or identifier, but legal availability/trademark clearance remains unestablished. VER-01 must independently re-verify the supplemented package before any PM acceptance action. |
+| FR-WP-01 | Legal, Entity, Name & Brand Clearance Foundations | LEGAL-01 / EVID-01 / VER-01 | VERIFIED — WITH CONDITIONS / PM ACCEPTANCE PENDING | VER-01 independently re-verified the supplemented package from starting baseline `9e8884e25b9c9c82661ac2ed33b86e8ef57e0d1f`. CR-01 and CR-02 are resolved for the required captured authoritative query sets; CR-03 remains resolved for foundational scope. The captured no-material-result states do not establish legal name availability, trademark clearance, registrability, likelihood-of-confusion clearance, or final legal approval. Professional-review and Human Owner execution gates remain open. PM-01 acceptance decision is now required. |
 | FR-WP-02 | Publishing Business Model & Industry Benchmark | FIN-01 | PLANNED | Phase 0 complete |
 | FR-WP-03 | Printing, Distribution & Fulfillment Baseline | DIST-01 | PLANNED | Phase 0 complete |
 | FR-WP-04 | Author Services Competitive Benchmark | SERV-01 | PLANNED | Phase 0 complete |
@@ -30,10 +30,12 @@ Exception states: `BLOCKED`, `CORRECTION REQUIRED`, `SUPERSEDED`, `CANCELLED`.
 11. LEGAL-01 authoritative supplementation began from `e3978282b20525977f03234e6131f947da6f3efa` and incorporated the completed CR-01/CR-02 evidence into only the affected FR-WP-01 research artifacts.
 12. `02_research/fr-wp-01/14-legal-01-authoritative-evidence-supplement.md` records the bounded LEGAL-01 supplementation provenance and preserves the distinction between a no-material-result display and legal clearance.
 13. CR-03 remains resolved for FR-WP-01 foundational scope; no new current authoritative evidence in the supplement materially contradicted it.
-14. **VER-01 independent re-verification is now required.** LEGAL-01 did not alter VER-01's existing verification report and did not self-verify.
-15. PM acceptance remains blocked. FR-WP-01 must not be marked VERIFIED, PM ACCEPTED, or CLOSED before re-verification.
-16. FR-WP-02 through FR-WP-05 may later run in controlled parallel when PM authorizes them.
-17. FR-WP-06 must not finalize until its source economics and channel assumptions are current and cited.
+14. VER-01 independently re-verified the supplemented package from exact starting baseline `9e8884e25b9c9c82661ac2ed33b86e8ef57e0d1f` and created `15_verification/fr-wp-01/01-ver-01-authoritative-evidence-reverification-report.md`.
+15. VER-01 disposition: **Verified With Conditions**. CR-01 and CR-02 are resolved for the required captured query sets; CR-03 remains resolved. Remaining attorney/CPA/current-law/live-recheck items are professional-review conditions, not unresolved launcher defects.
+16. PM-01 acceptance review is now required. FR-WP-01 must not be marked `PM ACCEPTED` or `CLOSED` until PM-01 acts.
+17. No Human Owner execution gate has advanced; no final legal name/trademark clearance is claimed.
+18. FR-WP-02 through FR-WP-05 may later run in controlled parallel when PM authorizes them.
+19. FR-WP-06 must not finalize until its source economics and channel assumptions are current and cited.
 
 ## FR-WP-01 authoring disposition
 
@@ -55,4 +57,8 @@ Exception states: `BLOCKED`, `CORRECTION REQUIRED`, `SUPERSEDED`, `CANCELLED`.
 
 **FR-WP-01 Authoritative Evidence Supplement Complete — Ready for VER-01 Re-verification**
 
-The prior CR-01 and CR-02 direct-authoritative-evidence blockers are resolved for the required captured query sets. The captured results do not constitute legal name availability, trademark clearance, registrability, likelihood-of-confusion analysis, or final legal approval. All Human Owner and professional-review gates remain intact.
+## FR-WP-01 authoritative evidence re-verification disposition
+
+**Verified With Conditions — Ready for PM-01 Acceptance Review**
+
+The prior CR-01 and CR-02 direct-authoritative-evidence blockers are resolved for the required captured query sets. The captured results do not constitute legal name availability, trademark clearance, registrability, likelihood-of-confusion analysis, or final legal approval. CR-03 remains resolved for FR-WP-01 foundational scope. All Human Owner and professional-review gates remain intact.
