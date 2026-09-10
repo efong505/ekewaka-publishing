@@ -1,0 +1,27 @@
+# FR-WP-03 — Printing / Distribution / Fulfillment Comparison Matrix
+
+**Retrieval date:** 2026-09-10
+
+| Option | Best current use | Inventory | Wholesale / retail reach | Returns exposure | Public quantity/economic signal | Key limits / cautions |
+|---|---|---|---|---|---|---|
+| KDP Print | Amazon-native POD; author copies | None for retail POD | Amazon marketplaces; paperback Expanded Distribution can reach distributors used by bookstores/libraries | KDP retail model does not expose publisher to normal trade return chargebacks in the same way as Ingram; Expanded Distribution economics are fixed at 40% less print cost | Amazon print royalty 50%/60% less print; Amazon.com 60% threshold $9.99; Expanded Distribution 40% less print | Expanded Distribution paperback only; no stocking guarantee; hardcover not eligible for Expanded Distribution |
+| IngramSpark / LSI | Bookstore/library/wholesale availability; global POD | None for POD; publisher orders optional | Strong trade-wholesale infrastructure and global network | Publisher chooses No / Yes-Deliver / Yes-Destroy; returnable copies charged back at wholesale cost; Yes-Deliver adds handling/shipping | Compensation = list less wholesale discount less print/fees; 55% presented as standard trade-oriented discount | Returns can materially reverse prior proceeds; current print/fee quote needed per title |
+| Lulu Global Distribution | Alternate retail/global POD | None | Uses retail channels including Amazon and Ingram/LSI subject to eligibility | Channel rules apply through Lulu; exact downstream returns mechanics should be verified per title | 50% of retail price to distribution channels; then Lulu receives 20% of remaining gross profit and creator 80% | Some formats/specs excluded; lower creator margin than direct |
+| Lulu Direct | DTC POD fulfillment | None | Publisher's own ecommerce/customer channel | Consumer-return/refund obligation depends on merchant checkout policy; no trade-return model inherent to direct sale | Merchant receives customer sale; pays Lulu print/fulfillment/shipping. Bulk discount 5% at 100–499; custom quote 500+ | Payment processing, tax, support, shipping subsidy and refunds remain merchant economics |
+| 48 Hour Books | Fast short-run/event/bulk | Yes after print | No automatic wholesale distribution implied | Publisher owns inventory/sell-through risk | Minimum 10; 100+ receives 25 extra copies; published example: 100 ordered, 125 received, 6x9 180pp B&W effective $4.74/book; price breaks at 500/1,000/2,500/5,000 | Freight/storage not embedded in public example; specifications drive price |
+| Bookmobile | Publisher-oriented short-run digital + fulfillment | Yes unless fulfilled from their storage | Fulfillment and distribution services available separately | Publisher inventory risk | Minimum 25; public examples support 25-copy short runs; printing invoiced when run enters inventory, fulfillment weekly | Quote required for title-specific economics |
+| PrintNinja offset | Larger validated runs / premium production | Yes | Printer, not automatic distribution | Full inventory/sell-through risk | Public minimum 250 for hardcover/art-book products; unit cost improves with volume | Long lead time; freight; often overseas production; 4–6 week production + ocean/air transit on cited hardcover page |
+| Aiken Printing (Albuquerque) | Local quote candidate; short-run/offset, perfect binding, fulfillment | Yes | Local printer/fulfillment, not a trade distributor | Publisher inventory risk | Public site confirms traditional offset, short-run digital, perfect binding, inventory/fulfillment; no comparable public book price | Vendor capability/quality/price must be validated by quote/sample |
+| Starline Printing (Albuquerque) | Local commercial print/custom quote candidate | Yes | Not evidenced as trade distributor | Publisher inventory risk | Public site confirms Heidelberg sheet-fed presses, heat-set web press, digital presses; custom quote form | Book-specific binding/price/fulfillment scope requires validation |
+| Graphic Sky (Santa Fe) | Local/regional perfect-bound and bound-document work | Yes | Not evidenced as trade distributor | Publisher inventory risk | Public perfect-bound-book quote workflow; no fixed cross-project price | Quote/spec validation required |
+| Paper Tiger (Santa Fe) | Books/manuals, commercial print, direct/bulk mail | Yes | Mailing/direct fulfillment capability rather than trade distribution | Publisher inventory risk | Public site lists books/manuals and direct/bulk mail | Book manufacturing specs and unit economics require quote |
+
+## Decision logic
+- **One-off and uncertain demand:** POD first.
+- **Trade bookstore/library objective:** Ingram terms must be tested with realistic discount and returns reserve.
+- **Events and known small batches:** compare short-run digital against author-copy/POD landed cost.
+- **250–500+:** require at least one offset quote plus short-run/POD comparison.
+- **1,000+:** model offset seriously, but only with evidence-backed demand and storage/fulfillment plan.
+- **5,000+:** treat as a capital/inventory decision requiring the Human Owner bulk-print gate.
+
+No row constitutes vendor selection or approval.
