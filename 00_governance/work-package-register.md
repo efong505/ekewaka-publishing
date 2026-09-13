@@ -13,7 +13,7 @@ Exception states: `BLOCKED`, `CORRECTION REQUIRED`, `SUPERSEDED`, `CANCELLED`.
 | FR-WP-02 | Publishing Business Model & Industry Benchmark | FIN-01 / VER-01 | PM ACCEPTED — WITH CONDITIONS | VER-01 independently verified the completed FIN-01 package and issued **Verified With Conditions** at `bdd86d29601f73a854557e1e08ba50c30de02f7c`. PM-01 accepted the package for foundational business-model research only at `0e5440dcfc9e4d712019cfde1b98bc3eec8867a3`. Volatile platform/provider economics must be rechecked before material downstream decisions; Lane B remains research-only; FR-WP-03 and FR-WP-05 must mature before FR-WP-06 finalization; Human Owner gates remain intact. See `00_governance/fr-wp-02-pm-acceptance.md`. |
 | FR-WP-03 | Printing, Distribution & Fulfillment Baseline | DIST-01 / VER-01 | PM ACCEPTED — WITH CONDITIONS | VER-01 independently verified the completed DIST-01 package and issued **Verified With Conditions** at `aa8e86f535f5191d4f9d8513cd4002c712243236`. PM-01 accepted the package for foundational printing/distribution/fulfillment research only at `4d03266a12be5600a1abec86812928ba4b674074`. Live landed-cost captures, identical-spec vendor quotes, return-rate sensitivities, CPA/GRT review, 3PL economics, and FR-WP-05 ISBN/metadata/channel-control dependencies remain open. No vendor/procurement authority is created. See `00_governance/fr-wp-03-pm-acceptance.md`. |
 | FR-WP-04 | Author Services Competitive Benchmark | SERV-01 | PLANNED | Phase 0 complete |
-| FR-WP-05 | ISBN, Metadata & Rights Foundations | RIGHTS-01 | AUTHORIZED | FR-WP-03 accepted with conditions; RIGHTS-01 role established; bounded launcher `18_handoffs/fr-wp-05-rights-01-isbn-metadata-rights-foundations-launcher.md` governs current research. FR-WP-05 is dependency-critical for FR-WP-06. |
+| FR-WP-05 | ISBN, Metadata & Rights Foundations | RIGHTS-01 / VER-01 | REVIEW PENDING | RIGHTS-01 completed the governed package under `02_research/fr-wp-05/` from starting baseline `bb4a7768ec2235b7a15df13997f9ddc381b87f8a`. Open professional/legal and implementation-validation items are preserved. Independent VER-01 review is required before PM acceptance; no ISBN, imprint, publisher-of-record, rights, contract, Lane B/Lane C, publication, payment/royalty, entity, trademark, domain or marketing execution authority is created. |
 | FR-WP-06 | Foundational Financial Model | FIN-01 | PLANNED | FR-WP-02, FR-WP-03, FR-WP-05 sufficiently mature |
 
 ## Immediate sequencing
@@ -23,9 +23,10 @@ Exception states: `BLOCKED`, `CORRECTION REQUIRED`, `SUPERSEDED`, `CANCELLED`.
 4. VER-01 independently verified FR-WP-03 from starting baseline `0720af74b8aab63ca33103a67268bc7c476323de` and issued **Verified With Conditions** at `aa8e86f535f5191d4f9d8513cd4002c712243236`.
 5. PM-01 accepted FR-WP-03 with conditions for foundational printing/distribution/fulfillment research only at `4d03266a12be5600a1abec86812928ba4b674074`; vendor selection, procurement, pricing, discounts, returns policy, ISBN actions, and other Human Owner gates remain unapproved.
 6. RIGHTS-01 permanent role was established at `652d596a2d5c600f460e088121fda023611c5845`.
-7. FR-WP-05 bounded research launcher was established at `92adb76177fc4a3e047c81d805cee4928f95ba7f`; FR-WP-05 is now **AUTHORIZED**.
-8. FR-WP-04 remains PLANNED unless separately authorized by PM-01.
-9. FR-WP-06 must not finalize until FR-WP-05 is sufficiently mature and FR-WP-02/03/05 economics, channel assumptions, ISBN/metadata controls, and rights dependencies are current and cited.
+7. FR-WP-05 bounded research launcher was established at `92adb76177fc4a3e047c81d805cee4928f95ba7f`; RIGHTS-01 completed the required research package and FR-WP-05 is now **REVIEW PENDING**.
+8. PM-01 should route FR-WP-05 to an independent VER-01 review before any PM acceptance decision.
+9. FR-WP-04 remains PLANNED unless separately authorized by PM-01.
+10. FR-WP-06 must not finalize until FR-WP-05 is independently reviewed and FR-WP-02/03/05 economics, channel assumptions, ISBN/metadata controls, and rights dependencies are current and cited.
 
 ## FR-WP-01 final PM disposition
 
@@ -47,6 +48,6 @@ This acceptance preserves live platform/vendor landed-cost rechecks, apples-to-a
 
 ## FR-WP-05 current PM disposition
 
-**AUTHORIZED — RIGHTS-01 ISBN, Metadata & Rights Foundations research may proceed.**
+**REVIEW PENDING — RIGHTS-01 governed research complete; independent VER-01 review required.**
 
-FR-WP-05 is research only. RIGHTS-01 must not purchase or assign ISBNs, establish final imprint/publisher-of-record architecture, execute contracts or acquire rights, approve royalties, form an entity, file trademarks, purchase domains, publish another author's work, launch Lane B/Lane C, deploy payment/royalty systems, or execute any Human Owner-gated action. Independent VER-01 review is required after RIGHTS-01 completion and before PM acceptance.
+FR-WP-05 remains research only. The package contains recommendations plus explicitly open professional/legal and implementation-validation items. It does not purchase or assign ISBNs, establish final imprint/publisher-of-record architecture, execute contracts or acquire rights, approve royalties, form an entity, file trademarks, purchase domains, publish another author's work, launch Lane B/Lane C, deploy payment/royalty systems, or execute any Human Owner-gated action. PM-01 should route the package to VER-01 and must not treat it as verified or PM accepted before that independent review.
