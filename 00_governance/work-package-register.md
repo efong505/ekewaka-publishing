@@ -9,40 +9,29 @@ Exception states: `BLOCKED`, `CORRECTION REQUIRED`, `SUPERSEDED`, `CANCELLED`.
 
 | ID | Work package | Owner | Status | Key dependencies |
 |---|---|---|---|---|
-| FR-WP-01 | Legal, Entity, Name & Brand Clearance Foundations | LEGAL-01 / EVID-01 / VER-01 | PM ACCEPTED — WITH CONDITIONS | VER-01 independently re-verified the supplemented package and issued **Verified With Conditions** at `daa746783a668fca26781b669538363227ab3c5a`. PM-01 accepted the package for foundational-research purposes only. CR-01/CR-02 are resolved for the required captured authoritative query sets; CR-03 remains resolved for foundational scope. Legal name/trademark clearance is not established; all professional-review and Human Owner execution gates remain open. See `00_governance/fr-wp-01-pm-acceptance.md`. |
-| FR-WP-02 | Publishing Business Model & Industry Benchmark | FIN-01 / VER-01 | PM ACCEPTED — WITH CONDITIONS | VER-01 independently verified the completed FIN-01 package and issued **Verified With Conditions** at `bdd86d29601f73a854557e1e08ba50c30de02f7c`. PM-01 accepted the package for foundational business-model research only at `0e5440dcfc9e4d712019cfde1b98bc3eec8867a3`. Volatile platform/provider economics must be rechecked before material downstream decisions; Lane B remains research-only; Human Owner gates remain intact. See `00_governance/fr-wp-02-pm-acceptance.md`. |
-| FR-WP-03 | Printing, Distribution & Fulfillment Baseline | DIST-01 / VER-01 | PM ACCEPTED — WITH CONDITIONS | VER-01 independently verified the completed DIST-01 package and issued **Verified With Conditions** at `aa8e86f535f5191d4f9d8513cd4002c712243236`. PM-01 accepted the package for foundational printing/distribution/fulfillment research only at `4d03266a12be5600a1abec86812928ba4b674074`. Live landed-cost captures, identical-spec vendor quotes, return-rate sensitivities, CPA/GRT review, and 3PL economics remain open. No vendor/procurement authority is created. See `00_governance/fr-wp-03-pm-acceptance.md`. |
-| FR-WP-04 | Author Services Competitive Benchmark | SERV-01 | PLANNED | Phase 0 complete; separately releasable; not a dependency for bounded FR-WP-06 execution |
-| FR-WP-05 | ISBN, Metadata & Rights Foundations | RIGHTS-01 / VER-01 | PM ACCEPTED — WITH CONDITIONS | VER-01 independently verified the completed RIGHTS-01 package and issued **Verified With Conditions** at `906f39ac14a3e760b7b40d2f2119d9a794fd241b`. PM-01 accepted the package for foundational ISBN/metadata/rights research only at `1bebcb52f66917be02abd95271be58dd0f16c384`. Counsel review, live platform/Bowker rechecks, founding-catalog provenance work, identifier/account/data-model implementation validation, corporate-successor qualification, and all Human Owner execution gates remain open. See `00_governance/fr-wp-05-pm-acceptance.md`. |
-| FR-WP-06 | Foundational Financial Model | FIN-01 / VER-01 | VERIFIED WITH CONDITIONS — PM ACCEPTANCE REVIEW PENDING | VER-01 independently reviewed the completed FIN-01 package and issued **Verified With Conditions**. Verification report: `15_verification/fr-wp-06/00-ver-01-independent-verification-report.md`. Conditions `VER06-C1` (explicit base-case calculation trace: per-channel royalty basis and return handling/method) and `VER06-C2` (explicit RISK-013/RISK-014 carry-forward and preserve Ingram 55% as sensitivity/reference rather than universal requirement) remain open. All upstream vendor/legal/tax/account/implementation conditions and Human Owner gates remain intact. |
+| FR-WP-01 | Legal, Entity, Name & Brand Clearance Foundations | LEGAL-01 / EVID-01 / VER-01 | PM ACCEPTED — WITH CONDITIONS | VER-01 independently re-verified the supplemented package and issued **Verified With Conditions** at `daa746783a668fca26781b669538363227ab3c5a`. PM-01 accepted the package for foundational-research purposes only. Legal name/trademark clearance is not established; all professional-review and Human Owner execution gates remain open. See `00_governance/fr-wp-01-pm-acceptance.md`. |
+| FR-WP-02 | Publishing Business Model & Industry Benchmark | FIN-01 / VER-01 | PM ACCEPTED — WITH CONDITIONS | VER-01 issued **Verified With Conditions** at `bdd86d29601f73a854557e1e08ba50c30de02f7c`; PM-01 accepted foundational business-model research at `0e5440dcfc9e4d712019cfde1b98bc3eec8867a3`. Volatile platform/provider economics require live recheck; Lane B remains research-only; Human Owner gates remain intact. |
+| FR-WP-03 | Printing, Distribution & Fulfillment Baseline | DIST-01 / VER-01 | PM ACCEPTED — WITH CONDITIONS | VER-01 issued **Verified With Conditions** at `aa8e86f535f5191d4f9d8513cd4002c712243236`; PM-01 accepted foundational printing/distribution/fulfillment research at `4d03266a12be5600a1abec86812928ba4b674074`. Live landed-cost/vendor/return/3PL/tax validation remains open; no procurement authority created. |
+| FR-WP-04 | Author Services Competitive Benchmark | SERV-01 / VER-01 | REVIEW PENDING | SERV-01 completed the governed competitive benchmark from authorized starting HEAD `a0e7f9f97ec1acb5c00e2371007ab8a79d370aef`. The package refines Lane C labor, vendor, scope, PM, revision/change-order, payment/refund, utilization, package and margin-control variables without approving prices or packages. Independent VER-01 review is required before PM acceptance. |
+| FR-WP-05 | ISBN, Metadata & Rights Foundations | RIGHTS-01 / VER-01 | PM ACCEPTED — WITH CONDITIONS | VER-01 issued **Verified With Conditions** at `906f39ac14a3e760b7b40d2f2119d9a794fd241b`; PM-01 accepted foundational ISBN/metadata/rights research at `1bebcb52f66917be02abd95271be58dd0f16c384`. Counsel review, live platform/Bowker rechecks, provenance, account-control, registry and implementation conditions remain open. |
+| FR-WP-06 | Foundational Financial Model | FIN-01 / VER-01 | PM ACCEPTED — WITH CONDITIONS | VER-01 issued **Verified With Conditions** at `9b2396855c032a014cef860871b6b26be2e34119`; PM-01 accepted the package for **FOUNDATIONAL FINANCIAL MODEL ONLY** at `a46ddc6cd5980a9f608abfb9474d22a0fbeccc8f`. `VER06-C1` and `VER06-C2`, volatile vendor/platform inputs, legal/tax/account/implementation dependencies and all Human Owner gates remain active. FR-WP-04 refinement is required before any Lane C public package/pricing decision. |
 
 ## Immediate sequencing
-1. FR-WP-01 remains **PM ACCEPTED — WITH CONDITIONS (FOUNDATIONAL RESEARCH ONLY)**; `RISK-001` remains High and no legal-clearance or execution authority is created.
-2. FR-WP-02 remains **PM ACCEPTED — WITH CONDITIONS (FOUNDATIONAL BUSINESS-MODEL RESEARCH ONLY)**; Lane B remains research-only and volatile economics require live rechecks before material decisions.
-3. FR-WP-03 remains **PM ACCEPTED — WITH CONDITIONS (FOUNDATIONAL PRINTING / DISTRIBUTION / FULFILLMENT RESEARCH ONLY)**; vendor/procurement and Human Owner gates remain intact.
-4. FR-WP-05 remains **PM ACCEPTED — WITH CONDITIONS (FOUNDATIONAL ISBN / METADATA / RIGHTS RESEARCH ONLY)**; counsel, live platform/Bowker, provenance, account-control, registry, and chain-of-title conditions remain open.
-5. FR-WP-04 remains **PLANNED** and separately releasable; its competitive author-services benchmark remains a required future refinement before Lane C public package/pricing decisions.
-6. FR-WP-06 FIN-01 execution has completed independent VER-01 review with disposition **Verified With Conditions**.
-7. `VER06-C1` and `VER06-C2` are nonblocking verification conditions and must remain visible to PM-01; PM-01 may accept with conditions, require a bounded documentation correction before acceptance, or take another governed action.
-8. VER-01 did not perform PM acceptance and did not infer Human Owner approval.
-9. No price, royalty, acquisition, procurement, ISBN, rights, entity, tax, reserve, Lane B/Lane C, outside-author, marketing, payment/royalty, or other Human Owner-gated execution authority is created by FIN-01 completion or VER-01 verification.
-10. Exact next governing action: route FR-WP-06 — **Verified With Conditions** to PM-01 for Research Acceptance / Governance Decision.
 
-## FR-WP-01 final PM disposition
-**PM ACCEPTED — WITH CONDITIONS (FOUNDATIONAL RESEARCH ONLY)**
+1. FR-WP-01 remains PM accepted with conditions for foundational research only; legal/name/trademark execution remains gated.
+2. FR-WP-02 remains PM accepted with conditions for foundational business-model research only; Lane B remains research-only.
+3. FR-WP-03 remains PM accepted with conditions; vendor/procurement decisions require later live validation and Human Owner approval.
+4. FR-WP-05 remains PM accepted with conditions; customer/publisher/ISBN/account boundaries remain subject to counsel and implementation validation.
+5. FR-WP-06 remains PM accepted with conditions for foundational modeling only; it is not a final commercial model and does not approve service pricing, margins, deposits, refunds, royalties, procurement or launch.
+6. FR-WP-04 is now **REVIEW PENDING**. SERV-01 has not self-verified it.
+7. Exact next governing action: **PM-01 should route FR-WP-04 to an independent VER-01 review.**
+8. No Lane C package, price, deposit, refund, revision policy, margin floor, client acceptance, ISBN purchase, publisher-of-record transfer, vendor commitment, paid marketing or launch authority is created by FR-WP-04 completion.
 
-## FR-WP-02 final PM disposition
-**PM ACCEPTED — WITH CONDITIONS (FOUNDATIONAL BUSINESS-MODEL RESEARCH ONLY)**
+## Current Phase 1 dispositions
 
-## FR-WP-03 final PM disposition
-**PM ACCEPTED — WITH CONDITIONS (FOUNDATIONAL PRINTING / DISTRIBUTION / FULFILLMENT RESEARCH ONLY)**
-
-## FR-WP-05 final PM disposition
-**PM ACCEPTED — WITH CONDITIONS (FOUNDATIONAL ISBN / METADATA / RIGHTS RESEARCH ONLY)**
-
-## FR-WP-06 current disposition
-**VERIFIED WITH CONDITIONS — PM ACCEPTANCE REVIEW PENDING**
-
-VER-01 independently verified the FIN-01 package and recorded the decision in `15_verification/fr-wp-06/00-ver-01-independent-verification-report.md`. The verification preserves `VER06-C1`, `VER06-C2`, all open professional/implementation-validation items, FR-WP-04 dependencies, active risks, and Human Owner gates. FR-WP-06 is not PM accepted, closed, final, commercially approved, or Human Owner approved.
-
-Exact next governing action: **Route FR-WP-06 — Verified With Conditions to PM-01 for Research Acceptance / Governance Decision.**
+- FR-WP-01 — **PM ACCEPTED — WITH CONDITIONS (FOUNDATIONAL RESEARCH ONLY)**
+- FR-WP-02 — **PM ACCEPTED — WITH CONDITIONS (FOUNDATIONAL BUSINESS-MODEL RESEARCH ONLY)**
+- FR-WP-03 — **PM ACCEPTED — WITH CONDITIONS (FOUNDATIONAL PRINTING / DISTRIBUTION / FULFILLMENT RESEARCH ONLY)**
+- FR-WP-04 — **REVIEW PENDING — INDEPENDENT VER-01 REQUIRED**
+- FR-WP-05 — **PM ACCEPTED — WITH CONDITIONS (FOUNDATIONAL ISBN / METADATA / RIGHTS RESEARCH ONLY)**
+- FR-WP-06 — **PM ACCEPTED — WITH CONDITIONS (FOUNDATIONAL FINANCIAL MODEL ONLY)**
