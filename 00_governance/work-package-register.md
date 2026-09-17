@@ -16,15 +16,21 @@ Exception states: `BLOCKED`, `CORRECTION REQUIRED`, `SUPERSEDED`, `CANCELLED`.
 | FR-WP-05 | ISBN, Metadata & Rights Foundations | RIGHTS-01 / VER-01 | PM ACCEPTED — WITH CONDITIONS | VER-01 issued **Verified With Conditions** at `906f39ac14a3e760b7b40d2f2119d9a794fd241b`; PM-01 accepted foundational ISBN/metadata/rights research at `1bebcb52f66917be02abd95271be58dd0f16c384`. Counsel review, live platform/Bowker rechecks, provenance, account-control, registry and implementation conditions remain open. |
 | FR-WP-06 | Foundational Financial Model | FIN-01 / VER-01 | PM ACCEPTED — WITH CONDITIONS | VER-01 issued **Verified With Conditions** at `9b2396855c032a014cef860871b6b26be2e34119`; PM-01 accepted the package for **FOUNDATIONAL FINANCIAL MODEL ONLY** at `a46ddc6cd5980a9f608abfb9474d22a0fbeccc8f`. `VER06-C1` and `VER06-C2`, volatile vendor/platform inputs, legal/tax/account/implementation dependencies and all Human Owner gates remain active. |
 
+## Phase 2 — Business & Brand Architecture
+
+| ID | Work package | Owner | Status | Key dependencies |
+|---|---|---|---|---|
+| P2-WP-01 | Business & Brand Architecture Synthesis & Human Owner Decision Package | PM-01 orchestration; LEGAL-01 / MKT-01 / FIN-01 specialist inputs; RIGHTS-01 as needed; VER-01 independent review | AUTHORIZED — BOUNDED RECOMMENDATION / SYNTHESIS ONLY | Authorized by `00_governance/phase-1-completion-phase-2-readiness-decision.md`. May recommend legal-entity posture, working brand/name, publishing mission, catalog scope, three-lane architecture, non-executing formation checklist, and Human Owner decision gates. All FR-WP-01 through FR-WP-06 conditions remain active. No filing, purchase, contract, vendor commitment, final pricing/royalty decision, Lane B/Lane C launch, outside-author acquisition/publication, or other Human Owner-gated execution is authorized. |
+
 ## Immediate sequencing
 
-1. FR-WP-01 through FR-WP-06 are now all **PM ACCEPTED — WITH CONDITIONS** for their bounded foundational-research/modeling purposes.
-2. Acceptance of Phase 1 packages does not close professional-review, live-recheck, implementation-validation, risk, or Human Owner conditions.
-3. Lane B remains research-only unless separately approved by the Human Owner.
-4. Lane C remains unlaunched; FR-WP-04 acceptance does not approve service packages, public pricing, deposits, refunds, revision policies, margin floors, client acceptance, ISBN use, publisher-of-record posture, vendor commitments, payment/accounting deployment, or paid marketing.
-5. FR-WP-06 remains a foundational model only and does not constitute final commercial pricing, royalty, acquisition, reserve, vendor, tax/accounting, or launch approval.
-6. Phase 1 package acceptance does **not** automatically authorize Phase 2 execution.
-7. Exact next governing action: **Run a separate Phase 1 Completion / Phase 2 Readiness Governance Decision** that reconciles all retained conditions, active risks, dependencies, and Human Owner gates before any Phase 2 authorization.
+1. Phase 1 is **COMPLETE** for its governed foundational-research and foundational-modeling purpose; all retained conditions remain open and carried forward.
+2. Phase 2 is **READY WITH CONDITIONS**. The exact next authorized action is `P2-WP-01 — Business & Brand Architecture Synthesis & Human Owner Decision Package`.
+3. P2-WP-01 is limited to recommendation, synthesis, decision-support, condition/risk mapping, and a non-executing readiness/formation checklist.
+4. P2-WP-01 must preserve Lane A/B/C separation; Lane B remains research-only and Lane C remains unlaunched.
+5. P2-WP-01 must preserve `VER04-C1`, `VER04-C2`, `VER06-C1`, `VER06-C2`, all professional-review/live-recheck/implementation conditions, every active governed risk, and every Human Owner gate.
+6. P2-WP-01 requires independent VER-01 review before its recommendations are treated as accepted or routed as a final Human Owner decision package.
+7. No Phase 2 implementation action, filing, purchase, contract, pricing/royalty decision, vendor commitment, launch, acquisition, publication, paid marketing, or production deployment is authorized by this routing.
 
 ## Current Phase 1 dispositions
 
@@ -37,6 +43,6 @@ Exception states: `BLOCKED`, `CORRECTION REQUIRED`, `SUPERSEDED`, `CANCELLED`.
 
 ## Phase 1 aggregate status
 
-**ALL FOUNDATIONAL WORK PACKAGES PM ACCEPTED WITH CONDITIONS — PHASE 1 COMPLETION / PHASE 2 READINESS GOVERNANCE DECISION REQUIRED**
+**PHASE 1 COMPLETE — PHASE 2 READY WITH CONDITIONS**
 
-This aggregate status does not mean all conditions are resolved and does not authorize Phase 2 execution. It means the Phase 1 evidence base is complete enough for PM-01 to conduct a separate readiness/governance decision.
+This status does not mean all conditions are resolved. It means the foundational Phase 1 evidence base is complete and sufficiently coherent for bounded Phase 2 recommendation/synthesis work. All execution-stage, professional-review, live-validation, implementation, risk, and Human Owner conditions remain active and must be enforced at their applicable downstream gates.

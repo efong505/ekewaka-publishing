@@ -14,6 +14,7 @@
 | DEC-010 | AWS/serverless operational platform preference | Architecture preference only | Final architecture requires research and independent review |
 | DEC-011 | Permanent PM / Orchestrator | Established | Owns sequencing and authoritative project state |
 | DEC-012 | Independent verification function | Established | High-impact artifacts may not self-verify |
+| DEC-013 | Phase 1 completion / Phase 2 readiness | PHASE 1 COMPLETE — PHASE 2 READY WITH CONDITIONS | PM-01 readiness decision. Authorizes only bounded Phase 2 recommendation/synthesis work under `P2-WP-01`; all retained conditions, active risks, professional-review requirements, and Human Owner gates remain open. No execution authority is created. |
 
 ## Decision-state vocabulary
 - Working assumption
