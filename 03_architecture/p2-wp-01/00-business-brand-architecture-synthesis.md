@@ -50,7 +50,7 @@ Recommended positioning principles:
 1. selective rather than volume-driven;
 2. evidence-based acquisition and title economics;
 3. publisher-funded risk in Lane A;
-4. transparent, separately contracted fee-for-service work in Lane C if later launched;
+4. transparent, separately contracted, demand-led fee-for-service work in Lane C operating opportunistically alongside Lane A after its launch conditions are satisfied;
 5. no disguised pay-to-publish treatment inside Lane A;
 6. explicit human review and accountability for AI-assisted workflows;
 7. durable title, rights, ISBN, metadata, accounting, and audit records;
@@ -87,15 +87,21 @@ No marketing, pilot, client intake, author contribution, or launch is recommende
 
 ### Lane C — Ekewaka Author Services
 
-**Recommended status:** future separate business line, not launched.
+**Recommended status:** parallel, demand-led revenue-supporting business line; not yet launched.
 
-If later developed:
+Lane C should be available to serve clients who affirmatively want publishing-related professional services, but it should not become a mandatory production quota, a volume-sales engine, or a prerequisite to Lane A. Its strategic purpose is to create an additional earned-revenue stream whose net contribution may help fund Lane A publishing activity and broader Ekewaka operating costs.
+
+The intended operating posture is **opportunistic rather than compulsory**: Ekewaka may accept suitable service work when demand, capacity, scope, economics, and governance controls align, while preserving Lane A as the core publishing mission.
+
+Before client intake is activated:
 - customer remains publisher wherever practicable;
 - customer-controlled ISBNs/accounts/revenue routing are preferred where appropriate;
 - services use defined scopes, limits, deliverables, change-order rules, and disclaimers;
 - no implied Lane A acquisition;
 - no sales, ranking, review, bestseller, bookstore, library, or media-outcome guarantees;
-- pricing must follow bottom-up labor/vendor costing, current market validation, legal/tax review, and Human Owner approval.
+- pricing must follow bottom-up labor/vendor costing, current market validation, legal/tax review, and Human Owner approval;
+- service work must be capacity-bounded so it does not crowd out Lane A editorial/publishing commitments;
+- Lane C revenue and costs must be separately tracked so any contribution to Lane A/company funding is visible rather than assumed.
 
 ## 7. Separation controls
 
@@ -143,6 +149,7 @@ Phase 2 should preserve:
 - return reserves and inventory exposure as first-class economics;
 - Lane B segregation;
 - Lane C bottom-up costing before public pricing;
+- separate Lane C contribution-margin and capacity tracking so service revenue can support Lane A/company operations without obscuring lane economics;
 - live rechecks before material commercial decisions.
 
 `VER06-C1` and `VER06-C2` remain active and must be resolved at their applicable material-reliance gates.
