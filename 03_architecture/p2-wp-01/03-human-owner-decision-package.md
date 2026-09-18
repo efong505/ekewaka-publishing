@@ -39,11 +39,22 @@ No title migration or outside-author outreach/acquisition is authorized.
 **Recommendation:**
 - Lane A — primary future trade-publishing model;
 - Lane B — research-only / dormant;
-- Lane C — future separately governed author-services line, unlaunched.
+- Lane C — parallel, demand-led author-services line intended to generate optional earned revenue that can help fund Lane A and Ekewaka operations; not yet activated for client intake.
 
 **Decision requested:** Accept / Revise / Reject this architecture for downstream operating-model work.
 
-Acceptance does not launch any lane or approve prices, royalties, packages, contracts, client intake, or acquisitions.
+Acceptance confirms the architecture only. It does not yet approve Lane C prices, packages, contracts, client intake, or public launch, but it records the intended posture that Lane C should be capable of operating opportunistically alongside Lane A once those later controls are satisfied.
+
+## Human Owner direction recorded before VER-01
+
+Edward Fong directed that Lane C should not be treated as merely dormant or as a future must-operate business line. The intended architecture is:
+
+- Lane A remains Ekewaka's core publishing mission.
+- Lane C may operate in parallel when a person wants suitable services and Ekewaka has capacity.
+- Lane C is optional and demand-led, not a mandatory revenue quota.
+- Net Lane C contribution may be used to help fund Lane A publishing activity and broader Ekewaka operations.
+- Lane C must retain separate contracts, accounting, scope, publisher-of-record/ISBN boundaries, pricing controls, and ethical marketing.
+- Actual client intake remains subject to the applicable later Human Owner gates and professional/market validation.
 
 ## Decision 6 — Phase 3 routing after P2-WP-01 verification/acceptance
 
