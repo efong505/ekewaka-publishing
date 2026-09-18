@@ -20,7 +20,7 @@ Exception states: `BLOCKED`, `CORRECTION REQUIRED`, `SUPERSEDED`, `CANCELLED`.
 
 | ID | Work package | Owner | Status | Key dependencies |
 |---|---|---|---|---|
-| P2-WP-01 | Business & Brand Architecture Synthesis & Human Owner Decision Package | PM-01 orchestration; LEGAL-01 / MKT-01 / FIN-01 specialist inputs; RIGHTS-01 as needed; VER-01 independent review | REVIEW PENDING — VER-01 REQUIRED | Bounded architecture package completed from starting baseline `b9953c230836d6b7f297aa515eb0e764a4a9e703`. Artifacts are under `03_architecture/p2-wp-01/`; independent verification is launched by `18_handoffs/p2-wp-01-ver-01-independent-verification-launcher.md`. Recommendations retain `Ekewaka Publishing` / `Ekewaka Publishing LLC` as preferred concepts, Lane A as the primary future model, Lane B as research-only/dormant, and Lane C as unlaunched. All Phase 1 conditions, risks, and Human Owner gates remain active. |
+| P2-WP-01 | Business & Brand Architecture Synthesis & Human Owner Decision Package | PM-01 orchestration; LEGAL-01 / MKT-01 / FIN-01 specialist inputs; RIGHTS-01 as needed; VER-01 independent review | REVIEW PENDING — VER-01 REQUIRED | Bounded architecture package completed from starting baseline `b9953c230836d6b7f297aa515eb0e764a4a9e703`. Artifacts are under `03_architecture/p2-wp-01/`; independent verification is launched by `18_handoffs/p2-wp-01-ver-01-independent-verification-launcher.md`. Recommendations retain `Ekewaka Publishing` / `Ekewaka Publishing LLC` as preferred concepts, Lane A as the core publishing model, Lane B as research-only/dormant, and Lane C as a parallel demand-led revenue-supporting services line that remains unactivated pending later pricing/client-intake/launch gates. All Phase 1 conditions, risks, and Human Owner gates remain active. |
 
 ## Immediate sequencing
 
@@ -29,7 +29,7 @@ Exception states: `BLOCKED`, `CORRECTION REQUIRED`, `SUPERSEDED`, `CANCELLED`.
 3. The exact next governed action is **VER-01 independent verification of P2-WP-01** using `18_handoffs/p2-wp-01-ver-01-independent-verification-launcher.md`.
 4. P2-WP-01 recommendations are not PM accepted or Human Owner accepted until independent review and subsequent governed acceptance/decision routing.
 5. `VER04-C1`, `VER04-C2`, `VER06-C1`, `VER06-C2`, all professional-review/live-recheck/implementation conditions, every active governed risk, and every Human Owner gate remain active.
-6. Lane B remains research-only/dormant; Lane C remains unlaunched.
+6. Lane B remains research-only/dormant. Lane C is architected as optional, demand-led, and parallel to Lane A, with net contribution potentially supporting Lane A/company operations; actual pricing, client intake, and launch remain separately gated.
 7. No Phase 2 implementation action, filing, purchase, contract, pricing/royalty decision, vendor commitment, launch, acquisition, publication, paid marketing, or production deployment is authorized.
 
 ## Current Phase 1 dispositions
