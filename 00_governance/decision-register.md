@@ -8,7 +8,7 @@
 | DEC-004 | Three-lane business architecture | Research architecture accepted | Trade, Partner/Hybrid, Author Services must remain distinct |
 | DEC-005 | Ekewaka Select publisher-funded model | Research authorized | No outside-author acquisition authorized |
 | DEC-006 | Ekewaka Partner / Hybrid or Co-Investment | Research only | No launch authorization |
-| DEC-007 | Ekewaka Author Services | Research/design only | No public launch or pricing publication authorized |
+| DEC-007 | Ekewaka Author Services | Human Owner architecture direction — parallel demand-led revenue-supporting lane | May operate alongside Lane A when demand/capacity justify it after later pricing/client-intake/launch gates; separate contracts/accounting/lane boundaries required; net contribution may help fund Lane A/company operations; no immediate launch authority |
 | DEC-008 | Publisher-owned ISBNs for Ekewaka-published editions | Working architecture assumption | Must be verified; purchase requires Human Owner approval |
 | DEC-009 | Closed/solicited submissions as initial model | Preferred research model | No author outreach authorized in Phase 0 |
 | DEC-010 | AWS/serverless operational platform preference | Architecture preference only | Final architecture requires research and independent review |
