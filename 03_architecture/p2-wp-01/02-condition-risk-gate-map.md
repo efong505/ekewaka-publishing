@@ -20,7 +20,7 @@ Primary Phase 2 mappings:
 - **RISK-002:** requires strict Lane A/B/C separation in brand, contracts, accounting, ISBN/publisher identity, and marketing.
 - **RISK-003 / RISK-007 / RISK-010:** require title/channel economics, returns, reserves, and cash timing before acquisition/procurement.
 - **RISK-004 / RISK-005 / RISK-006 / RISK-013:** require professional contract/rights/accounting/ISBN/AI controls before outside-author operations.
-- **RISK-008 / RISK-009:** require cost validation, scope controls, ethical marketing, and launch approval before Lane C.
+- **RISK-008 / RISK-009:** require cost validation, scope controls, ethical marketing, capacity limits, and pricing/client-intake/launch approval before Lane C service work.
 - **RISK-011:** preserves explicit Human Owner acquisition approval.
 - **RISK-012:** requires independent security/privacy review before production systems handling author data, money, or contracts.
 - **RISK-014:** supports phased MVP boundaries and prevents premature simultaneous lane complexity.
@@ -37,7 +37,7 @@ Primary Phase 2 mappings:
 | Tax / GRT / service / royalty / multistate treatment | CPA/New Mexico tax adviser |
 | Royalty accounting / bookkeeping | Qualified bookkeeping/accounting design and reconciliation controls |
 | Insurance | Broker/professional review as operations mature |
-| Lane C market/pricing | Current competitor evidence, processor terms, vendor quotes, measured labor, willingness-to-pay |
+| Lane C market/pricing/capacity | Current competitor evidence, processor terms, vendor quotes, measured labor, willingness-to-pay, capacity limits, and separate lane contribution accounting |
 | Printing/distribution | Live title-specific landed costs, comparable quotes, returns/3PL evidence |
 | ISBN / platform accounts | Live Bowker/platform rules, account-control and recovery design |
 | Production software | Architecture/security/privacy/financial-control independent review |
