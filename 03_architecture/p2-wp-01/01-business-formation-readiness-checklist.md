@@ -18,7 +18,7 @@ This checklist identifies the recommended dependency sequence after future Human
 | 10 | Build attorney-review-ready contract frameworks | Lane-specific business architecture accepted | Contract execution remains separate |
 | 11 | Validate distribution/procurement evidence | Live KDP/Ingram/Lulu costs; comparable vendor quotes; returns/3PL evidence | Vendor/print commitments |
 | 12 | Finalize title-level financial controls | Resolve applicable VER06-C1/C2; current economics; CPA/accounting inputs | Prices/royalties/acquisition economics |
-| 13 | Develop Lane C commercial architecture if later authorized | SERV/FIN/legal/tax/market-validation gates | Package pricing / public launch |
+| 13 | Prepare Lane C for optional demand-led service intake | SERV/FIN/legal/tax/market-validation gates; capacity controls; separate lane accounting | Package pricing / client intake / public launch |
 | 14 | Develop website/commerce/operational systems | Security/privacy/financial controls and independent review | Public launch / production deployment |
 | 15 | Founding-catalog migration | Title-by-title ISBN provenance and edition decision | Publication/republication as applicable |
 | 16 | Outside-author pilot | Phase 3+ operating model, contracts, economics, rights, production readiness | Acquisition / agreement / publication |
@@ -26,7 +26,8 @@ This checklist identifies the recommended dependency sequence after future Human
 ## Rules
 
 - Lane B remains research-only unless separately approved.
-- Lane C remains unlaunched until a later governed package explicitly reaches its Human Owner launch gate.
+- Lane C is intended as an optional, demand-led revenue-supporting line that may operate in parallel with Lane A after a later governed package reaches the applicable Human Owner pricing/client-intake/launch gates.
+- Lane C is not a mandatory workload or volume target; service work should be accepted only when suitable demand and capacity exist, with separate economics so its net contribution can support Lane A/company operations.
 - No outside-author outreach/acquisition is authorized by this checklist.
 - Current laws, fees, platform terms, tax rules, vendor capabilities, ISBN rules, and distribution terms must be refreshed at the material-decision point.
 - Professional review conditions are mandatory at their stated gates and are not waived by Phase 2 architecture acceptance.
