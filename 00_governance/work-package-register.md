@@ -26,7 +26,7 @@ Exception states: `BLOCKED`, `CORRECTION REQUIRED`, `SUPERSEDED`, `CANCELLED`.
 
 | ID | Work package | Owner | Status | Key dependencies |
 |---|---|---|---|---|
-| P3-WP-01 | Publishing Operating Model — Bounded Work Package Definition & Governance Preparation | PM-01 | PREPARATION AUTHORIZED — EXECUTION NOT AUTHORIZED | Human Owner authorized PM-01 to prepare the next bounded Phase 3 work package. Preparation must define scope, specialist roles, deliverables, conditions, independent verification, and Human Owner gates without authorizing acquisition, contracts, publication, pricing/royalties, vendor commitments, ISBN purchases, Lane C launch, or other operational execution. |
+| P3-WP-01 | Publishing Operating Model — Bounded Work Package Definition & Governance Preparation | PM-01 | PREPARATION COMPLETE — EXECUTION AUTHORIZATION PENDING | Preparation package completed under `03_architecture/p3-wp-01-preparation/`. Scope, specialist roles, operating workflows, conditions/risks, Human Owner gates, deliverables, independent verification, and the execution-authorization decision are defined. No Phase 3 operational execution is authorized. |
 
 ## Immediate sequencing
 
@@ -41,7 +41,7 @@ Exception states: `BLOCKED`, `CORRECTION REQUIRED`, `SUPERSEDED`, `CANCELLED`.
    - Lane B dormant/research-only;
    - Lane C optional, demand-led, parallel and revenue-supporting, with separate controls.
 4. `VER04-C1`, `VER04-C2`, `VER06-C1`, `VER06-C2`, all `RISK-001`–`RISK-016`, all professional-review/live-recheck/implementation conditions, and all Human Owner gates remain active.
-5. PM-01 may now prepare P3-WP-01 only.
+5. P3-WP-01 preparation is complete. The next governed action is explicit Human Owner execution-authorization decision on the bounded design-and-verification scope.
 6. No LLC filing, trademark filing, EIN/banking/tax election, ISBN purchase, outside-author acquisition, offer, contract execution, final pricing/royalties, vendor commitment, Lane B/Lane C launch, publication, public launch, paid marketing, production deployment, or material spending is authorized.
 
 ## Current Phase 1 dispositions
@@ -63,4 +63,4 @@ Exception states: `BLOCKED`, `CORRECTION REQUIRED`, `SUPERSEDED`, `CANCELLED`.
 
 ## P3-WP-01 current disposition
 
-**PREPARATION AUTHORIZED — EXECUTION NOT AUTHORIZED**
+**PREPARATION COMPLETE — EXECUTION AUTHORIZATION PENDING**
