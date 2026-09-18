@@ -138,7 +138,9 @@ No correction-level defect was found. The conditions above are retained downstre
 
 ## Final verification commit
 
-The exact verification-disposition commit is recorded after the work-package register is updated. Because an immutable Git commit cannot contain its own SHA, the finalized report records that commit in a subsequent metadata-only update.
+**Exact verification-disposition commit:** `adce5acd87b813216a9547884f8e6ef90ff7950b`
+
+This commit records the VER-01 disposition in the authoritative work-package register after creation of this report. A subsequent metadata-only commit may update this report to record that immutable SHA; such annotation does not alter the verification disposition.
 
 ## Exact next governed action
 
